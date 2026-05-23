@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Cane Maggiore",
+    "colorHex": "#66aaff",
+    "file": "data/stars/cane_maggiore.json"
+  },
+  {
+    "name": "Orione",
+    "colorHex": "#8899ff",
+    "file": "data/stars/orione.json"
+  },
+  {
+    "name": "Leone",
+    "colorHex": "#ffcc66",
+    "file": "data/stars/leone.json"
+  },
+  {
+    "name": "Toro",
+    "colorHex": "#ff9944",
+    "file": "data/stars/toro.json"
+  }
+]

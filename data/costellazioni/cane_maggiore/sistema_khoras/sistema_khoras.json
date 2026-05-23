@@ -1,0 +1,161 @@
+{
+  "celestialBodies": [
+    {
+      "name": "Khòras",
+      "sunDistance": 0,
+      "type": "nana gialla",
+      "diameter": 400,
+      "description": "Stella nana gialla simile al Sole, con età stimata di 4.5 miliardi di anni. Fornisce energia vitale al sistema planetario di Khòras.",
+      "baseTexture": "assets/textures/sistema_khoras/khoras/khoras.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/khoras/khoras_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/khoras/khoras_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/khoras/khoras_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/khoras/khoras_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Khàr-Khònaris",
+      "sunDistance": 20,
+      "type": "tellurico del carbonio",
+      "diameter": 100,
+      "description": "Khàr-Khònaris presenta una superficie rossa scura completamente rocciosa e avvolta da un’atmosfera leggera composta interamente da monossido di carbonio con piccole tracce di metano. In superficie il pianeta non presenta liquidi e secondo i biologi più esperti non vi sono oceani e piccole sacche d’acqua nemmeno nelle sue profondità. Data la lenta rotazione del pianeta, il suo periodo di rivoluzione molto lungo e la sua insolita composizione rocciosa (capace di trattenere il calore e rilasciarlo per moltissimo tempo), Khàr-Khònaris è un globo che non conosce il freddo; nello specifico la faccia esposta alla luce di Khòras possiede sempre temperature che variano tra i 400 e i 900°C e la faccia oscurata dalla zona d’ombra non scende mai sotto i 40°C. La composizione fisica del pianeta per fasce è la seguente: il primo strato superficiale è composto interamente da rocce vulcaniche ricche di idrocarburi (questi ultimi danno il tipico colore rossastro al pianeta), la seconda parte della crosta terrestre è composta invece da rocce di pura grafite. La stratificazione prosegue con un mantello fatto interamente da rocce vulcaniche ricche di composti del carbonio e termina con un nucleo ferroso ultra denso (circa tre volte la densità del piombo). Essendo Khàr-Khònaris un pianeta tellurico del carbonio e non del silicio, esso, oltre ad essere una vera rarità sulla faccia del cosmo, possiede all’interno della sua crosta terrestre filoni di diamanti kilometrici puri al 100% capaci di sostenere le esigenze finanziarie di uno stato cosmico per decine di migliaia di anni. Dato il valore economico e strategico del pianeta i Qüark, la specie dominante del sistema solare di Khòras, ne prese possesso già prima della loro conquista da parte dell’impero Syviar (avvenuta nell’anno 7970 a.C.) e ne fecero un fiorente mondo minerario anche a fronte di gravissime e continue perdite di personale specializzato a causa delle estreme condizioni anti-vita del pianeta.",
+      "baseTexture": "assets/textures/sistema_khoras/khar_khonaris/khar_khonaris.png",
+      "bumpTexture": "assets/textures/sistema_khoras/khar_khonaris/khar_khonaris_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/khar_khonaris/khar_khonaris_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/khar_khonaris/khar_khonaris_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/khar_khonaris/khar_khonaris_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Khàr-Khàarith",
+      "sunDistance": 27,
+      "type": "tellurico del silicio",
+      "diameter": 58,
+      "description": "Gemello del silicio di Khàr-Khònaris, superficie di magma e nubi di acido solforico, effetto serra estremo, gas tossici e instabilità atmosferica.",
+      "baseTexture": "assets/textures/sistema_khoras/khar_khaarith/khar_khaarith.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/khar_khaarith/khar_khaarith_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/khar_khaarith/khar_khaarith_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/khar_khaarith/khar_khaarith_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/khar_khaarith/khar_khaarith_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Khàr-Khàr",
+      "sunDistance": 36,
+      "type": "tellurico del silicio",
+      "diameter": 74,
+      "description": "Super-terra abitabile, pianeta natale dei Qüark e capitale della Qüazamaraqua. Presenta una faccia calma e una caotica a causa dell’influenza del vicino Ro’kràl.",
+      "baseTexture": "assets/textures/sistema_khoras/khar_khar/khar_khar.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/khar_khar/khar_khar_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/khar_khar/khar_khar_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/khar_khar/khar_khar_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/khar_khar/khar_khar_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Ro’kràl",
+      "sunDistance": 58,
+      "type": "gassoso",
+      "diameter": 180,
+      "description": "Gigante gassoso verde con fascia di asteroidi, venti oltre 2000 km/h. Fonte di attrazione gravitazionale e simbolo visibile da Khàr-Khàr.",
+      "baseTexture": "assets/textures/sistema_khoras/rokral/rokral.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/rokral/rokral_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/rokral/rokral_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/rokral/rokral_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/rokral/rokral_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Kràlek",
+      "sunDistance": 91,
+      "type": "tellurico del silicio",
+      "diameter": 56,
+      "description": "Pianeta desertico e montuoso, con tempeste di sabbia e cielo grigio dovuto a metano e azoto. Contiene giacimenti di petrolio fossile.",
+      "baseTexture": "assets/textures/sistema_khoras/kralek/kralek.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/kralek/kralek_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/kralek/kralek_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/kralek/kralek_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/kralek/kralek_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Ràan-Khàr",
+      "sunDistance": 110,
+      "type": "tellurico del silicio",
+      "diameter": 54,
+      "description": "Pianeta pallido con atmosfera composta da CO2, N2, O2 e vapore acqueo. Ospita città Qüark protette da cupole, con circa 3 milioni di abitanti.",
+      "baseTexture": "assets/textures/sistema_khoras/raan_khar/raan_khar.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/raan_khar/raan_khar_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/raan_khar/raan_khar_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/raan_khar/raan_khar_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/raan_khar/raan_khar_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Kràlash",
+      "sunDistance": 136,
+      "type": "ghiacciato",
+      "diameter": 114,
+      "description": "Gigante ghiacciato ai confini del sistema. Atmosfera di metano, ammoniaca e idrogeno, con tempeste a 2000 km/h. Definisce la fascia di confine del sistema di Khòras.",
+      "baseTexture": "assets/textures/sistema_khoras/kralash/kralash.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/kralash/kralash_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/kralash/kralash_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/kralash/kralash_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/kralash/kralash_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Khàr",
+      "sunDistance": 36,
+      "type": "tellurico del silicio",
+      "diameter": 20,
+      "description": "Luna blu di Khàr-Khàr, con oceani profondi e isole temperate. Sede di basi militari Qüark e grandi spaziporti nel 2134.",
+      "baseTexture": "assets/textures/sistema_khoras/khar/khar.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/khar/khar_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/khar/khar_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/khar/khar_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/khar/khar_light.jpg",
+      "PlanetDistance": 2.5
+    },
+    {
+      "name": "Kràl",
+      "sunDistance": 58,
+      "type": "tellurico del silicio",
+      "diameter": 18,
+      "description": "Luna ricca di metalli preziosi e terre rare. Atmosfera leggera e forte attività elettrica. Importante fonte economica per i Qüark.",
+      "baseTexture": "assets/textures/sistema_khoras/kral/kral.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/kral/kral_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/kral/kral_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/kral/kral_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/kral/kral_light.jpg",
+      "PlanetDistance": 4
+    },
+    {
+      "name": "Krel",
+      "sunDistance": 91,
+      "type": "tellurico del silicio",
+      "diameter": 15,
+      "description": "Piccola luna gelida con base scientifica Qüark sotterranea. Temperatura media -187°C e cielo completamente nero.",
+      "baseTexture": "assets/textures/sistema_khoras/krel/krel.jpg",
+      "bumpTexture": "assets/textures/sistema_khoras/krel/krel_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khoras/krel/krel_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khoras/krel/krel_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khoras/krel/krel_light.jpg",
+      "PlanetDistance": 2
+    }
+  ],
+  "asteroid": [
+    {
+      "distance": 45
+    },
+    {
+      "distance": 75
+    },
+    {
+      "distance": 122
+    },
+    {
+      "distance": 150
+    }
+  ]
+}

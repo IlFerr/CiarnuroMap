@@ -1,0 +1,157 @@
+{
+  "stars": [
+    {
+      "x": 3.2,
+      "y": -0.5,
+      "name": "Khar-khil",
+      "hasSystem": false,
+      "type": "Blue-White Main Sequence",
+      "magnitude": 1.35,
+      "distanceLY": 79
+    },
+    {
+      "x": 3.2,
+      "y": -0.1,
+      "name": "Kar-kronis",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 2.14,
+      "distanceLY": 36
+    },
+    {
+      "x": 3.5,
+      "y": 0.3,
+      "name": "Kar-karn",
+      "hasSystem": false,
+      "type": "Double Giant",
+      "magnitude": 2.08,
+      "distanceLY": 130
+    },
+    {
+      "x": 2.9,
+      "y": 0.35,
+      "name": "Kar-kira",
+      "hasSystem": false,
+      "type": "White Subgiant",
+      "magnitude": 2.56,
+      "distanceLY": 58
+    },
+    {
+      "x": 3.6,
+      "y": 0.7,
+      "name": "Kàg-Kar",
+      "hasSystem": false,
+      "type": "Orange Giant",
+      "magnitude": 3.88,
+      "distanceLY": 133
+    },
+    {
+      "x": 4.7,
+      "y": 0.6,
+      "name": "Kàr-Kash",
+      "hasSystem": false,
+      "type": "Yellow Giant",
+      "magnitude": 3.44,
+      "distanceLY": 260
+    },
+    {
+      "x": 4.8,
+      "y": 0.85,
+      "name": "Kàs'kau",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 3.33,
+      "distanceLY": 165
+    },
+    {
+      "x": 5.3,
+      "y": 1,
+      "name": "Kàras-kau",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 3.33,
+      "distanceLY": 165
+    },
+    {
+      "x": 5.8,
+      "y": 1.02,
+      "name": "Kàlian",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 3.33,
+      "distanceLY": 165
+    },
+    {
+      "x": 5.7,
+      "y": 0.76,
+      "name": "Kàurus",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 3.33,
+      "distanceLY": 165
+    },
+    {
+      "x": 5.4,
+      "y": 0.8,
+      "name": "Khòoram",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 3.33,
+      "distanceLY": 165
+    },
+    {
+      "x": 5,
+      "y": 0.3,
+      "name": "Khòris",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 3.33,
+      "distanceLY": 165
+    },
+    {
+      "x": 4.9,
+      "y": -0.2,
+      "name": "Khònau",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 3.33,
+      "distanceLY": 165
+    },
+    {
+      "x": 3.87,
+      "y": -0.35,
+      "name": "Khònas",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 3.33,
+      "distanceLY": 165
+    },
+    {
+      "x": 3.6,
+      "y": 0.9,
+      "name": "Khòval",
+      "hasSystem": false,
+      "type": "White Main Sequence",
+      "magnitude": 3.33,
+      "distanceLY": 165
+    }
+  ],
+  "lines": [
+    [0, 1],
+    [1, 2],
+    [2, 3],
+    [3, 4],
+    [4, 5],
+    [5, 6],
+    [6, 7],
+    [7, 8],
+    [8, 9],
+    [10, 7],
+    [9, 10],
+    [10, 11],
+    [11, 12],
+    [11, 5],
+    [2, 4],
+    [2, 11]
+  ]
+}

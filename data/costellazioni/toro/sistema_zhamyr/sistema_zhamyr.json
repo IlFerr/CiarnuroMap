@@ -1,0 +1,171 @@
+{
+  "celestialBodies": [
+    {
+      "name": "Zhàmyr",
+      "sunDistance": 0,
+      "type": "nana bianca-azzurra B8",
+      "diameter": 200,
+      "description": "Stella madre del sistema di Zhàmyr, una nana bianca-azzurra instabile dal nucleo precario. La sua intensa radiazione definisce ampie fasce ostili e una vasta zona abitabile.",
+      "baseTexture": "assets/textures/sistema_zhamyr/zhamyr/zhamyr.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/zhamyr/zhamyr_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/zhamyr/zhamyr_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/zhamyr/zhamyr_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/zhamyr/zhamyr_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Ylux",
+      "sunDistance": 20,
+      "type": "tellurico del silicio",
+      "diameter": 30,
+      "description": "Ylux è un pianeta roccioso ancora in fase di raffreddamento e solidificazione a causa della sua estrema vicinanza alla corona della propria stella madre. La superficie di questo pianeta è un mosaico di zone vulcaniche, oceani di magma e distese rocciose roventi che rendono il pianeta inabitabile e a tratti incandescente. Ylux è un globo che a causa delle sue primordiali condizioni fisiche non è ancora riuscito a sviluppare alcun tipo di atmosfera ma potrebbe, secondo gli studi fatti dagli astrofisici Qüark, sostenere un giorno molto lontano un’atmosfera densa.",
+      "baseTexture": "assets/textures/sistema_zhamyr/ylux/ylux.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/ylux/ylux_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/ylux/ylux_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/ylux/ylux_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/ylux/ylux_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Avosyn",
+      "sunDistance": 40,
+      "type": "tellurico del silicio",
+      "diameter": 60,
+      "description": "Avosyn è un enorme pianeta roccioso in possesso di un’atmosfera sottile la cui orbita sfiora la fascia abitabile senza mai violare i confini della fascia ostile interna. Gli elementi principali che compongono la sua precaria atmosfera sono l’anidride carbonica e l’azoto, mentre per quanto riguarda quelli secondari essi si identificano nell’ossigeno e nel metano. La crosta terrestre di Avosyn si presenta come un’infinita distesa montagnosa sferzata da venti carichi di sabbia fine che tentano ogni giorno di addolcire le alte vette acuminate del globo. Dal punto di vista geologico Avosyn è un pianeta morto, poiché non vi sono vulcani attivi in superficie e nemmeno manifestazioni geotermiche leggere come geyser e fumarole, inoltre, durante alcuni scavi minerari Pravosiani, sono state rinvenute immense cavità sotterranee ricche di cristalli di quarzo e formazioni calcaree perfettamente integre che testimoniano il perfetto immobilismo delle placche tettoniche del pianeta. Negli strati più profondi della crosta di Avosyn fiumi d’acqua dolce scorrono impetuosi tra le rocce alla volta di cavità sotterranee non ancora scoperte dalle sonde: alcuni geologi ipotizzano la presenza di un oceano grande circa cinque volte il pianeta natale degli Umani. Avosyn è un pianeta che secondo i più illustri scienziati di Pravos non potrà mai essere terraformato poiché troppo vicino a Zhàmyr, tuttavia, se la presenza dell’oceano sotterraneo dovesse un giorno essere confermata, tale massa d’acqua dolce potrebbe sostenere un ecosistema sotterraneo complesso al servizio delle guide di Pravos.",
+      "baseTexture": "assets/textures/sistema_zhamyr/avosyn/avosyn.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/avosyn/avosyn_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/avosyn/avosyn_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/avosyn/avosyn_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/avosyn/avosyn_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Ylux II",
+      "sunDistance": 40,
+      "type": "tellurico del silicio",
+      "diameter": 10,
+      "description": "Ylux II è un globo roccioso avvolto da gas tossici e intense nuvole di cenere che nascondono una superficie turbolenta e in continuo cambiamento. La crosta terrestre di Ylux II è in gran parte ricoperta da oceani di magma ed enormi vulcani attivi che incendiano e riempiono continuamente di cenere l’atmosfera. Il globo presenta una temperatura media di circa 500°C, tuttavia, in alcune zone non particolarmente attive dal punto di vista vulcanico, la temperatura può scende fino a toccare i 55°C rendendo possibile la formazione di pianure di roccia solida capaci di sostenere l’atterraggio di un vascello spaziale.",
+      "baseTexture": "assets/textures/sistema_zhamyr/ylux_ii/ylux_ii.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/ylux_ii/ylux_ii_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/ylux_ii/ylux_ii_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/ylux_ii/ylux_ii_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/ylux_ii/ylux_ii_light.jpg",
+      "PlanetDistance": 4
+    },
+    {
+      "name": "Ylux III",
+      "sunDistance": 40,
+      "type": "tellurico del silicio",
+      "diameter": 5,
+      "description": "Ylux III è un satellite lunare sfregiato da numerosi crateri vulcanici in fase di raffreddamento e lunghi solchi nella crosta terrestre provocati dalla caduta di piccoli asteroidi attratti dal campo magnetico di Avosyn. L’atmosfera di questo piccolo globo roccioso è composta principalmente da anidride carbonica, metano, kripton e argon che rendono tutti i paesaggi della luna grigio-verdi, cupi e tossici. Il satellite presenta una temperatura media di circa 170°C con picchi fino a 349°C nelle sue regioni più calde, tuttavia, le zone più fredde sono attraversate da temperature molto più miti rispetto alla norma ma non inferiori a 38°C. La zona di Ylux III nota ai Pravosiani come pianura di Pàn-Zovix viene abitualmente utilizzata dai Syviar di Pravos come area di test bellica poiché isolata, provvista di una cupola ambientale e di una solida piana di roccia fumante ideale per le esercitazioni ad alto rischio.",
+      "baseTexture": "assets/textures/sistema_zhamyr/ylux_iii/ylux_iii.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/ylux_iii/ylux_iii_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/ylux_iii/ylux_iii_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/ylux_iii/ylux_iii_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/ylux_iii/ylux_iii_light.jpg",
+      "PlanetDistance": 8
+    },
+    {
+      "name": "Pravos",
+      "sunDistance": 60,
+      "type": "tellurico del silicio",
+      "diameter": 45,
+      "description": "Pravos è una super-terra che nel tempo è riuscita in totale autonomia a sviluppare un ecosistema globale complesso e ricco di vita pari a quello di altri pianeti come Gaia (la patria degli Umani) e Khàr-Nahàr (la Terra del sistema di Khònas). La peculiarità di questo pianeta rifugio si identifica in un’atmosfera con elevati livelli di ossigeno che ha fortemente influenzato lo sviluppo di una flora ed una fauna molto aggressiva dalle dimensioni colossali. La composizione atmosferica del pianeta è la seguente: azoto al 75,09%, ossigeno al 23,95%, argon 0,91%, anidride carbonica al 0,04735%, neon al 0,0018%, elio al 0,0005%, metano al 0,0002%, kripton al 0,0001% e idrogeno al 0,00005%, valori insoliti per un’atmosfera bilanciata ma che sottolineano l’unicità di questa oasi tra le stelle. Pravos è anche famoso per i suoi organismi patogeni difficilmente domabili e le sue popolazioni di insetti giganti che divorano ogni cosa sul loro cammino. La fauna di questa super-terra è di fatto la più feroce di tutto il cosmo conosciuto con predatori terrestri e marini dotati di armi formidabimi ma soprattutto di stazze titaniche. Per quanto riguarda la flora è anch’essa imponente e letale ma non scansa dal podio la temibile flora di Khàr-Nahàr. Pravos oltre ad essere il pianeta natale dei Krentoriani e dei Krenusiani è il globo blu con i fondali più profondi di tutto il cosmo conosciuto, infatti, all’alba del 2134, la profondità di alcune zone oceaniche non è ancora nota alla scienza intergalattica, poiché le sonde, oltre i 38 km, si accartocciano e smettono di funzionare. La forte presenza di ossigeno nell’atmosfera del pianeta è principalmente dovuta alla lussureggiante flora che ricopre il 95% delle terre emerse con alberi alti più di 80 metri e arbusti dotati di larghe foglie.",
+      "baseTexture": "assets/textures/sistema_zhamyr/pravos/pravos.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/pravos/pravos_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/pravos/pravos_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/pravos/pravos_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/pravos/pravos_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Pràs",
+      "sunDistance": 60,
+      "type": "tellurico del silicio",
+      "diameter": 10,
+      "description": "LPràs è un satellite roccioso terraformato dai Syviar nell’anno 1003 e preso con la forza dai Pravosiani nell’anno 2020 durante la rivolta Syrogenetica. Il processo di terraformazione di Pràs fu molto lungo e difficile poiché l’imperatore Erax-Decobàx XLVI, dopo aver visitato Pravos e compreso le sue problematiche, ritenne opportuno dotare Pràs della medesima fauna e flora di Sirone e non del pianeta a cui era legato. Pràs al termine della sua terraformazione divenne una sorta di copia biologica di Sirone e pertanto un luogo prezioso per i domini imperiali nonché una magnifica perla blu sospesa nello spazio illuminata da una magnifica nana bianca-azzurra. Pràs dopo essere stata sottratta all’impero Syviar dai Pravosiani fu trasformata in una riserva naturale sospesa ricca di animali e vegetali esotici mantenuti sotto controllo dal genio militare di Pravos.",
+      "baseTexture": "assets/textures/sistema_zhamyr/pras/pras.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/pras/pras_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/pras/pras_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/pras/pras_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/pras/pras_light.jpg",
+      "PlanetDistance": 4
+    },
+    {
+      "name": "Xegosh",
+      "sunDistance": 80,
+      "type": "tellurico del silicio",
+      "diameter": 35,
+      "description": "Xegosh è un pianeta roccioso la cui terraformazione è iniziata nell’anno 1006 sotto la guida di Sua Maestà Imperiale Erax-Decobàx XLVI ed è terminata sotto la guida di Sua Maestà Imperiale Erax-Decobàx XLVII nell’anno 1097. Come il satellite maggiore di Pravos anche Xegosh è stato trasformato in un globo blu attingendo alle risorse biologiche di Sirone e ciò ha richiesto moltissimo tempo dato che le dimensioni di Xegosh superavano quelle della patria dei Syviar e per ordine di Sua Maestà Imperiale Erax-Decobàx XLVI, l’unica acqua che poteva essere utilizzata per completare gli oceani doveva essere prelevata esclusivamente dalle comete. Xegosh al termine della sua bonifica divenne un pianeta agricolo e fino al 2020 fornì cibo alle popolazioni governate dai Syviar. Dall’anno 2020 in poi Xegosh passò con la forza sotto l’amministrazione Syviar di Pravos e da allora nutre e serve gli eserciti e le popolazioni alleate di quest’ultima.",
+      "baseTexture": "assets/textures/sistema_zhamyr/xegosh/xegosh.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/xegosh/xegosh_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/xegosh/xegosh_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/xegosh/xegosh_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/xegosh/xegosh_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Juxa",
+      "sunDistance": 100,
+      "type": "tellurico del silicio",
+      "diameter": 25,
+      "description": "Juxa è un pianeta roccioso molto vicino ad una fitta fascia di asteroidi, conosciuta come campo di Juxa, creatasi dall’esplosione della sua unica grande luna a causa di un violento impatto con un’enorme cometa di ghiaccio e alcuni asteroidi al seguito. La superficie del pianeta è dominata da catene montuose che si uniscono tra loro formando muri di roccia invalicabili dotati di picchi appuntiti e vette che sembrano bucare il cielo. L’atmosfera del pianeta è di tipo sottile ma sostenuta da un moderato vulcanismo che rende il cielo grigio e talvolta giallognolo. Pur non avendo le caratteristiche idonee per sostenere la vita Juxa, all’interno delle sue montagne e gole rocciose, ospita svariate strutture civili e militari al servizio del sistema solare di Zhàmyr che ogni giorno arricchiscono il Regno di Pravos attraverso un’intensiva ma controllata estrazione mineraria e un costante commercio con i Qüark. Entrambi i poli del pianeta sono presidiati da calotte ghiacciate molto spesse che i coloni di Juxa sfruttano per ricavare acqua potabile e acqua per rifornire i serbatoi delle navi spaziali. Juxa per le guide di Pravos è un pianeta d’avanguardia proiettato verso un futuro glorioso e ricco di opportunità, ma lo è ancor di più il suo campo di asteroidi che oltre a fungere da nascondiglio e rampa di lancio per la flotta del Regno è anche un ottimo luogo dove addestrare le truppe aerospaziali.",
+      "baseTexture": "assets/textures/sistema_zhamyr/juxa/juxa.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/juxa/juxa_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/juxa/juxa_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/juxa/juxa_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/juxa/juxa_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Ylux IV",
+      "sunDistance": 120,
+      "type": "gassoso",
+      "diameter": 60,
+      "description": "Ylux IV è un gigante gassoso imponente, protetto da una spessa atmosfera e circondato da 12 anelli di roccia e ghiaccio attraversati da 19 lune rocciose. L’atmosfera del pianeta è principalmente composta da idrogeno ed elio, ma vi sono presenti anche tracce di metano, ammoniaca e acqua. A differenza di altri giganti gassosi l’interazione tra i vari strati di gas che compongono l’atmosfera non genera tempeste impossibili da affrontare, infatti, i venti che soffiano su Ylux IV non superano i 420 km/h e tale fatto è ancora oggetto di studio da parte degli astrofisici intergalattici. Grazie alla possibilità di introdurre con una certa facilità sonde negli strati profondi del pianeta la comunità scientifica di Pravos ha appurato che il cuore roccioso di Ylux IV contiene una gran quantità di cobalto, nichel e cromo, elementi molto utili per l’industria bellica e siderurgica Pravosiana ma inaccessibili poiché protetti da centinaia di migliaia di kilometri di gas compressi. Il pianeta presenta attorno a sè un sistema di dodici anelli composti da frammenti di ghiaccio e meteoriti di tutte le dimensioni che orbitano a distanze diverse dal pianeta. Tra ciascun anello si alternano anelli vuoti detti canali in cui orbitano i figli di Ylux IV, ovvero, i satelliti rocciosi di quest’ultimo. Gli anelli di questo meraviglioso colosso gassoso presentano un’omogeneità e una sottigliezza spaventosa tanto da risultare sospetta, tuttavia è solo il risultato di un perfetto equilibrio che si è formato in centinaia di miliardi di anni attorno al pianeta. Ylux IV è un gigante gassoso dai colori sottili e affascinanti, un globo che sembra emettere una luce morbida e avvolgente ma che in realtà riflette e colora solo la luce emessa dalla propria stella madre. La sua superficie, sebbene composta principalmente da nuvole di gas compresse, presenta sfumature che vanno dal dorato al giallo pallido, passando per il beige chiaro in prossimità dei poli. Oltre l’orbita di Ylux IV una fitta e profonda nube di piccoli asteroidi, la nube di Ylux, circonda l’intero sistema solare e lo separa dallo spazio profondo e dai suoi pericoli",
+      "baseTexture": "assets/textures/sistema_zhamyr/ylux_iv/ylux_iv.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/ylux_iv/ylux_iv_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/ylux_iv/ylux_iv_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/ylux_iv/ylux_iv_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/ylux_iv/ylux_iv_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Ylux V",
+      "sunDistance": 46,
+      "type": "tellurico del silicio",
+      "diameter": 5,
+      "description": "Ylux V è un globo roccioso dalle proprietà interessanti e dalle mille possibilità. La sua superficie alterna vaste pianure rocciose ghiacciate a zone montane estremamente impervie ma ricche di ripari naturali. Sotto la crosta gelata, spessa decine di chilometri, la comunità scientifica di Pravos sospetta la presenza di un oceano salato mantenuto liquido dal calore sprigionato da alcuni vulcani abissali sempre attivi e vigorosi. L’atmosfera è rarefatta e consiste in un velo di gas tossici quasi impercettibile che ricopre il pianeta. Il cielo, visto dalla superficie, appare grigio scuro di giorno e nero di notte, poiché la luce emanata da Zhàmyr non trova alcun filtro e raggiunge la superficie di Ylux V a piena potenza. Le temperature sono rigide e variano dai -100°C ai -189°C, tuttavia, in alcune cavità montane, è possibile trovare luoghi più miti e adirittura favorevoli per la vita: è il caso di alcune grotte riscaldate da fumarole vulcaniche attive dalla formazione del globo. Durante alcuni scavi minerari Pravosiani sono state rinvenute a varie profondità sacche considerevoli di acqua dolce allo stato liquido intrappolate nella crosta, tale scoperta ha messo in guardia i biologi Pravosiani sulla possibile presenza di colonie batteriche e forme di vita all’interno del pianeta, tuttavia, all’alba del 2134, nessuna forma di vita è ancora stata trovata.",
+      "baseTexture": "assets/textures/sistema_zhamyr/ylux_v/ylux_v.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/ylux_v/ylux_v_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/ylux_v/ylux_v_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/ylux_v/ylux_v_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/ylux_v/ylux_v_light.jpg",
+      "PlanetDistance": 4
+    },
+    {
+      "name": "Ylux VI",
+      "sunDistance": 46,
+      "type": "tellurico del silicio",
+      "diameter": 5,
+      "description": "Ylux VI è un globo roccioso desolato ma strategico. La sua superficie è composta unicamente da vaste pianure rocciose ghiacciate contenenti piccoli crateri da impatto che formano degli anfiteatri rocciosi. Come il satellite Ylux V l’atmosfera è rarefatta e consiste in un velo di gas tossici quasi impercettibile che ricopre il pianeta e non filtra minimamente la luce di Zhàmyr. Le temperature sono glaciali e variano dai -143°C ai -205°C e non vi sono attività vulcaniche sul pianeta che di fatto è geologicamente morto. Ylux VI, per la sua strategica posizione fra gli anelli di Ylux IV, viene utilizzato dai Syviar di Pravos come satellite fortezza e come spazioporto bellico, infatti, un’ampia e profonda base è stata scavata all’interno dei suoi solidi strati di roccia per asservire il volere dei capi di Pravos.",
+      "baseTexture": "assets/textures/sistema_zhamyr/ylux_vi/ylux_vi.jpg",
+      "bumpTexture": "assets/textures/sistema_zhamyr/ylux_vi/ylux_vi_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_zhamyr/ylux_vi/ylux_vi_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_zhamyr/ylux_vi/ylux_vi_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_zhamyr/ylux_vi/ylux_vi_light.jpg",
+      "PlanetDistance": 8
+    }
+  ],
+  "asteroid": [
+    {
+      "distance": 108
+    },
+    {
+      "distance": 112
+    },
+    {
+      "distance": 135
+    }
+  ]
+}

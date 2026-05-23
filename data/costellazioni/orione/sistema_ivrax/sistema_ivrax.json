@@ -1,0 +1,127 @@
+{
+  "celestialBodies": [
+    {
+      "name": "Ivrax",
+      "sunDistance": 0,
+      "type": "stella madre - gigante brillante azzurra (B3)",
+      "diameter": 200,
+      "description": "Ivrax è una stella gigante brillante azzurra di classe spettrale B3, con nucleo instabile e atmosfera estremamente complessa. Il suo intenso irraggiamento genera una vasta fascia interna ostile e una fascia abitabile molto distante.",
+      "baseTexture": "assets/textures/sistema_ivrax/ivrax/ivrax.jpg",
+      "bumpTexture": "assets/textures/sistema_ivrax/ivrax/ivrax_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_ivrax/ivrax/ivrax_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_ivrax/ivrax/ivrax_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_ivrax/ivrax/ivrax_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Ersyl",
+      "sunDistance": 40,
+      "type": "tellurico del silicio",
+      "diameter": 60,
+      "description": "Ersyl è un globo roccioso vulcanico in possesso di un’atmosfera molto densa e un campo magnetico incapace di resistere ai venti solari emessi dalla corona di Ivrax. L’atmosfera di Ersyl pur essendo compatta e composta da anidride carbonica (88%), azoto (7%), anidride solforosa (4%) e ossigeno (1%), presenta due gravi problematiche: piccoli squarci esosferici che immettono nello spazio grandi quantità d’aria e sottili piani gassosi mesosferici che intrappolano costantemente al loro interno i gas più leggeri (azoto e ossigeno). Tali criticità, un giorno molto lontano, trasformeranno Ersyl in un pianeta sterile e privo di atmosfera, ma fino a tale momento esso sarà in possesso del più forte effetto serra e scudo di nuvole del sistema. Nascosti sotto l’impenetrabile cappello di nuvole venti a 300 km/h sferzano la terra e pioggie di acido solforico corrodono le rocce magmatiche in continua evoluzione. Circa l’80% della superficie del globo è presidiata da montagne vulcaniche attive che eruttano continuamente fiumi di magma, mentre il restante 20% è occupata da due immense pianure rocciose che a tratti ospitano piccoli laghi acidi profondi centinaia di metri. Ersyl, anche se in possesso di condizioni climatiche ostili alla vita, ospita un’antica città Syviar sospesa all’interno di un sottile strato gassoso mesosferico particolarmente ricco di azoto e ossigeno. Tale dimora è un avamposto segreto (voluto da Sua Maestà Erax-Decobàx VII) gestito da alcuni Syviar fanatici fedeli agli antichi ideali e alla corona, che in caso di necessità funge da rifugio sicuro per l’imperatore e tutto il suo seguito. L’esatta posizione dell’avamposto sospeso è nota solo all’imperatore, al guardiano Sempiterno e all’Alto Sovrintendente del trono.",
+      "baseTexture": "assets/textures/sistema_ivrax/ersyl/ersyl.jpg",
+      "bumpTexture": "assets/textures/sistema_ivrax/ersyl/ersyl_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_ivrax/ersyl/ersyl_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_ivrax/ersyl/ersyl_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_ivrax/ersyl/ersyl_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Erax I",
+      "sunDistance": 90,
+      "type": "tellurico del silicio",
+      "diameter": 40,
+      "description": "Erax I è un globo di natura oceanica in possesso di pochissime terre emerse e un clima prevalentemente tropicale. Le poche ma significative isole che popolano il grande oceano sono per la maggior parte apici di enormi catene montuose sottomarine che emergono dalle acque e tentano di toccare il cielo con altezze che sfiorano i 2000 metri. Disseminate nella vasta distesa azzurra si possono trovare anche piccole piane sabbiose ricche di biodiversità e alghe verdi, dove le acque sono poco profonde ed è possibile edificare piccoli insediamenti sospesi. La temperatura media del pianeta è di circa 19°C ma su tutta la linea equatoriale è possibile imbattersi in letali picchi di calore che superano i 77°C. In prossimità dei poli, zone gelide e temperate si alternano formando un ampio mosaico di regioni in cui le escursioni termiche sono molto più contenute e favoriscono una migliore adattabilità. Erax I, come tutti i pianeti dominati da un clima tropicale, possiede un ciclo dell’acqua stabile ma energico che da origine a lunghi periodi di siccità interrotti unicamente da brevi ma intensi periodi piovosi. La conquista e la terraformazione in chiave Syviar del secondo figlio di Ivrax sotto la saggia guida di Erax-Decobàx I, diede inizio al grande espansionismo cosmico predetto da Sua Maestà Zhàrc-Decobàx I e proiettò il popolo superiore in un’era di grandi onori e vittorie. Nell’anno 2134 Erax I è un pianeta conteso tra le forze del Secondo Impero Syviar e circa due miliardi di Syviar fedeli alla corona, che vivono in grandi città sottomarine e tentano ogni giorno di riconquistare la superficie perduta con piccoli ma letali gruppi armati.",
+      "baseTexture": "assets/textures/sistema_ivrax/erax_I/erax_I.jpg",
+      "bumpTexture": "assets/textures/sistema_ivrax/erax_I/erax_I_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_ivrax/erax_I/erax_I_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_ivrax/erax_I/erax_I_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_ivrax/erax_I/erax_I_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Ralax",
+      "sunDistance": 90,
+      "type": "luna tellurica del silicio",
+      "diameter": 10,
+      "description": "Ralax è una sfera rocciosa quasi perfetta terraformata dai Syviar di Erax-Decobàx I nell’anno 8834 a.C. e trasformata nell’anno 8675 a.C. in un globo penitenziario di massima sicurezza per i nemici dell’impero Syviar. All’alba del 2134 la luna presenta una temperatura media di circa 7°C e un tasso di umidità molto basso che non consente lo sviluppo di climi diversi da quello polare. Nonostante le sue dimensioni contenute, il satellite di Erax I presenta una struttura interna differenziata molto simile a quella di un pianeta tellurico, con tanto di nucleo ferroso incandescente, vari tipi di mantelli e una crosta terrestre dotata di una lieve ma essenziale attività vulcanica. La sua superficie è principalmente ricoperta da gelide acque salate poco profonde (67%), ampie tundre polari (14%), distese rocciose ghiacciate (11%) e lastre di ghiaccio continentali spesse kilometri che presidiano i poli (8%). Ralax è un oggetto celeste che possiede una particolarità più unica che rara: 61 criovulcani che con i loro sbuffi gelidi riempiono l’atmosfera di enormi scaglie di ghiaccio che danneggiano e raffreddano tutto ciò che toccano.",
+      "baseTexture": "assets/textures/sistema_ivrax/ralax/ralax.jpg",
+      "bumpTexture": "assets/textures/sistema_ivrax/ralax/ralax_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_ivrax/ralax/ralax_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_ivrax/ralax/ralax_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_ivrax/ralax/ralax_light.jpg",
+      "PlanetDistance": 4
+    },
+    {
+      "name": "Ervel",
+      "sunDistance": 130,
+      "type": "gigante ghiacciato",
+      "diameter": 80,
+      "description": "Ervel è un gigante ghiacciato dalle modeste dimensioni che possiede una stratificazione molto semplice e una colorazione azzurrina uniforme in tutte le sue zone. Lo strato superficiale di Ervel è composto interamente da un fluido contenente acqua, ammoniaca e altre sostanze volatili che conferiscono al liquido proprietà antigelo. L’intero mantello del pianeta è un immenso blocco di ghiaccio impenetrabile mantenuto stabile da temperature oscillanti tra i -139°C e i -145°C. L’unica parte calda di Ervel è il suo nucleo roccioso composto da silicati, ferro e nichel, che nonostante le sue ridotte dimensioni mantiene viva al suo interno una sfera incandescente. L’atmosfera di Ervel è composta principalmente da idrogeno, elio, metano, acqua e ammoniaca e presenta uno spessore di circa 500 km. Tale copertura climatica, oltre ad essere molto più estesa rispetto a quella degli altri pianeti, si distingue anche per essere priva di forti tempeste capaci di alterare la sua tipica colorazione azzurrina e la sua perfetta omogeneità. Ervel, come tutti i pianeti della propria classe, ha generato attorno alla propria orbita un anello di detriti che protegge l’intero sistema solare e ostacola il passaggio di qualsivoglia congegno spaziale. Tale fascia di asteroidi viene ogni anno rinvigorita dall’azione del campo magnetico di Ervel che attrae a sé nuovi corpi celesti e li intrappola nel grosso anello roccioso che in milioni di anni ha creato. La fascia di Ervel oltre a fungere da barriera naturale e bellica, viene utilizzata dai Syviar come zona mineraria ad alto rendimento poiché ricca di detriti e grandi asteroidi di varia natura. Un asteroide in particolare denominato Zol, ospita al suo interno un avanzato centro siderurgico che forgia ogni anno miliardi di tonnellate di oro, argento, ferro, acciaio, titanio, tungsteno e altri metalli utili per asservire le mire espansionistiche del grande e potente Impero Syviar.",
+      "baseTexture": "assets/textures/sistema_ivrax/ervel/ervel.jpg",
+      "bumpTexture": "assets/textures/sistema_ivrax/ervel/ervel_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_ivrax/ervel/ervel_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_ivrax/ervel/ervel_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_ivrax/ervel/ervel_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Erlax",
+      "sunDistance": 130,
+      "type": "luna vulcanica",
+      "diameter": 20,
+      "description": "Erlax è un globo roccioso vulcanico ricoperto da uno spesso strato di nuvole composte da biossido di zolfo e metano che orbita attorno ad Ervel con una velocità quattro volte superiore rispetto ai suoi fratelli Vex e Vaxal. Oltre alla sorprendente velocità orbitale Erlax possiede anche un’altra interessante particolarità: un’atmosfera a strati che impedisce ai congegni spaziali e alle sonde di raggiungere la superficie del globo senza subire ingenti danni. Lo strato più esterno (il primo strato) è composto da un fitto campo di particelle radioattive emesse da nuclei instabili di uranio mantenuti sospesi da venti perenni provenienti dal caldo strato sottostante. Il secondo strato presenta una temperatura media di circa 800°C e un inspiegabile miscela di ossigeno, metano e idrogeno, che di fatto rende il tratto atmosferico altamente infiammabile e letale per tutti i corpi celesti che tentano di attraversarlo. Il terzo strato è il regno del gelo: schiacciato fra uno strato ultra denso di spesse nuvole corrosive e uno strato estremamente caldo presenta condizioni climatiche glaciali con temperature che possono toccare i -200°C e danneggiare gravemente per escursione termica gli scafi dei congegni e delle sonde spaziali. L’ultimo strato è rappresentato da un denso cappello di nuvole composte da biossido di zolfo, metano e acido solforico sospeso che viene costantemente alimentato da un’intensa attività vulcanica di superficie e funge da base per tutti gli altri strati. Tale particolare strato oscura il pianeta facendolo sembrare una palla di gas nera lanciata a folle velocità attorno al proprio pianeta madre e crea uno scudo corrosivo che insieme agli altri strati atmosferici rende il globo praticamente inaccessibile. In base ai dati raccolti dall’Impero Syviar in oltre 8000 anni di osservazioni, Erlax dovrebbe essere un globo roccioso del silicio ricco di metalli preziosi e uranio, ma a causa dell’assenza di dati certi provenienti da sonde attive sul pianeta la comunità scientifica intergalattica non ha ancora definito con un profilo tecnico la sua posizione a riguardo.",
+      "baseTexture": "assets/textures/sistema_ivrax/erlax/erlax.jpg",
+      "bumpTexture": "assets/textures/sistema_ivrax/erlax/erlax_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_ivrax/erlax/erlax_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_ivrax/erlax/erlax_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_ivrax/erlax/erlax_light.jpg",
+      "PlanetDistance": 4
+    },
+    {
+      "name": "Vex",
+      "sunDistance": 130,
+      "type": "luna siderale",
+      "diameter": 10,
+      "description": "Vex è una luna composta da rocce ricche di calcite, aragonite, mica e cristalli di quarzo che riflettono la luce solare e fanno brillare l’intero globo rendendolo visibile fin oltre i confini del sistema solare. Vex, nota anche come la luce di Ervel, è un globo roccioso interessante che ha catturato fin da subito l’attenzione dei Syviar i quali l’hanno colonizzata e trasformata in una sorta di immenso santuario di meditazione sospeso. Gran parte della superficie di questo oggetto celeste è ricoperta da colline rocciose che emanano riflessi accecanti e la restante parte da pianure pietrose altrettanto luminescenti. Circa il 5% della superficie di Vex è coperta da cupole ambientali contenenti piccoli ecosistemi che rendono possibile la vita sul satellite e proteggono i templi a cielo aperto edificati dai Syviar. Vex è una luna che non possiede alcuna atmosfera ed è direttamente esposta al vuoto siderale con temperature che sfiorano i -178°C, ma ciò non ha scoraggiato alcuni Syviar fedeli agli antichi ideali a creare un culto (il culto bianco) e vivere fino alla fine dei loro giorni nelle cupole ambientali illuminate dai raggi lucenti di Vex.",
+      "baseTexture": "assets/textures/sistema_ivrax/vex/vex.jpg",
+      "bumpTexture": "assets/textures/sistema_ivrax/vex/vex_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_ivrax/vex/vex_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_ivrax/vex/vex_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_ivrax/vex/vex_light.jpg",
+      "PlanetDistance": 8
+    },
+    {
+      "name": "Vaxal",
+      "sunDistance": 130,
+      "type": "luna mineraria",
+      "diameter": 20,
+      "description": "Vaxal è il satellite più grande di Ervel ed è un globo roccioso in possesso di un’atmosfera rarefatta che si sta lentamente disperdendo nello spazio. La sua superficie è priva di qualsivoglia attività vulcanica e geologica tanto che le strumentazioni sismiche dell’impero Syviar non registrano terremoti o assestamenti della crosta da oltre 5000 anni. Vaxal è una desolata distesa pallida sfregiata da crateri da impatto e crepacci rocciosi, tuttavia è un corpo celeste ricco di rocce basaltiche contenenti grandi quantità di titanio, magnesio, calcio, ferro, alluminio, nichel, vanadio e cromo che alimentano la macchina bellica dell’impero. La temperatura media sulla superficie di Valax è di -35°C e la sua atmosfera è composta principalmente da Anidride carbonica, Azoto, Argon, Ossigeno e Monossido di Carbonio. Valax viene utilizzato dai Syviar di Erax I come complesso minerario di alto livello per rifornire a dovere le fonderie dell’asteroide Zol. Le strutture minerarie costruite dagli schiavi dell’Impero Syviar si radicano all’interno del pianeta fino a toccare il mantello esterno di quest’ultimo e la loro estensione nella crosta terrestre è talmente vasta che nemmeno i Syviar nati su Valax conoscono le loro reali dimensioni. Inoltre si narra che durante la guida di Tush-Decobàx II parte di tali miniere siano state conquistate con l’uso della forza e l’impiego di armi rudimentali da una frangia operaia ribelle composta principalmente da Glapidi, Draudzart e Krentoriani. Secondo le indiscrezioni trapelate da alcuni agenti Syviar contrari alle politiche del Riformatore (Tush-Decobàx II), tale fazione misteriosa sarebbe riuscita in poco tempo con l’aiuto di alcuni agenti Qüark, ad avviare una realtà sotterranea capace di autosostenersi grazie all’impiego di tecnologia Syviar trafugata dai magazzini di Valax.",
+      "baseTexture": "assets/textures/sistema_ivrax/vaxal/vaxal.jpg",
+      "bumpTexture": "assets/textures/sistema_ivrax/vaxal/vaxal_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_ivrax/vaxal/vaxal_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_ivrax/vaxal/vaxal_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_ivrax/vaxal/vaxal_light.jpg",
+      "PlanetDistance": 12
+    },
+    {
+      "name": "Zol",
+      "sunDistance": 170,
+      "type": "asteroide guida",
+      "diameter": 20,
+      "description": "Zol è un oggetto celeste di origine sconosciuta che guida la fascia di Ervel e separa come uno stato cuscinetto il sistema solare di Ivrax dallo spazio profondo. Lungo 1600 km, largo 200 km e spesso 67 km, Zol, è l’asteroide più grande della fascia di Ervel e grazie alle sue immense cavità naturali offre validi ripari ai congegni in avvicinamento al sistema. Composto principalmente da una dura roccia magmatica nera contenente ferro e numerose sacche di idrogeno, azoto e metano, l’asteroide, ospita nei suoi ambienti numerosi spaziporti bellici Syviar e il più grande polo siderurgico sospeso di Ivrax, che forgia ogni anno miliardi di tonnellate di ferro, acciaio, titanio, tungsteno e altri metalli utili per asservire le mire espansionistiche della corte di Sirone.",
+      "baseTexture": "assets/textures/sistema_ivrax/zol/zol.jpg",
+      "bumpTexture": "assets/textures/sistema_ivrax/zol/zol_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_ivrax/zol/zol_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_ivrax/zol/zol_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_ivrax/zol/zol_light.jpg",
+      "PlanetDistance": 0
+    }
+  ],
+
+  "asteroid": [
+    {
+      "distance": 150
+    }
+  ]
+}

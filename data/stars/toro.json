@@ -1,0 +1,133 @@
+{
+  "stars": [
+    {
+      "x": -3.6,
+      "y": 3.9,
+      "name": "Zhàvion",
+      "hasSystem": false,
+      "type": "Orange Giant",
+      "magnitude": 0.87,
+      "distanceLY": 65
+    },
+    {
+      "x": -3.8,
+      "y": 2.5,
+      "name": "Zemith",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 1.65,
+      "distanceLY": 134
+    },
+    {
+      "x": -1.5,
+      "y": 2.9,
+      "name": "Zhàlyth",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 2.87,
+      "distanceLY": 440
+    },
+    {
+      "x": -1.1,
+      "y": 2.6,
+      "name": "Zhàrenis",
+      "hasSystem": false,
+      "type": "Blue-White Star",
+      "magnitude": 3.63,
+      "distanceLY": 440
+    },
+    {
+      "x": -0.8,
+      "y": 2.15,
+      "name": "Zevoth",
+      "hasSystem": false,
+      "type": "Blue Subgiant",
+      "magnitude": 3.0,
+      "distanceLY": 417
+    },
+    {
+      "x": -1.3,
+      "y": 2.1,
+      "name": "Zelenis",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 4.28,
+      "distanceLY": 490
+    },
+    {
+      "x": 0.0,
+      "y": 1.8,
+      "name": "Decorya",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 4.28,
+      "distanceLY": 490
+    },
+    {
+      "x": 1.0,
+      "y": 1.7,
+      "name": "Decorax",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 4.28,
+      "distanceLY": 490
+    },
+    {
+      "x": 0.6,
+      "y": 0.8,
+      "name": "Evalior",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 4.28,
+      "distanceLY": 490
+    },
+    {
+      "x": 1.2,
+      "y": 1.5,
+      "name": "Zolesh",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 4.28,
+      "distanceLY": 490
+    },
+    {
+      "x": 1.3,
+      "y": 0.6,
+      "name": "Zelesh",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 4.28,
+      "distanceLY": 490
+    },
+    {
+      "x": -0.2,
+      "y": 4.1,
+      "name": "Zhàmyr",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 4.28,
+      "distanceLY": 490
+    },
+    {
+      "x": 0.7,
+      "y": 2.4,
+      "name": "Solphir",
+      "hasSystem": false,
+      "type": "Blue-White Giant",
+      "magnitude": 4.28,
+      "distanceLY": 490
+    }
+  ],
+  "lines": [
+    [0, 2],
+    [1, 5],
+    [2, 3],
+    [3, 4],
+    [5, 4],
+    [4, 6],
+    [6, 7],
+    [9, 7],
+    [8, 9],
+    [10, 9]
+  ]
+}

@@ -1,0 +1,557 @@
+/* ═══════════════════════════════════════════════════
+   FONTS
+═══════════════════════════════════════════════════ */
+@font-face {
+  font-family: "Lora";
+  src: url("assets/fonts/LoraOTF/Lora-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("assets/fonts/LoraOTF/Lora-Bold.otf") format("opentype");
+  font-weight: 600 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("assets/fonts/LoraOTF/Lora-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("assets/fonts/LoraOTF/Lora-BoldItalic.otf") format("opentype");
+  font-weight: 600 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ═══════════════════════════════════════════════════
+   RESET / BASE
+═══════════════════════════════════════════════════ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+/* ═══════════════════════════════════════════════════
+   CANVAS  (fills the viewport, behind everything)
+═══════════════════════════════════════════════════ */
+#canvas {
+  display: block;
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ═══════════════════════════════════════════════════
+   SCENE FADE (mode transitions)
+═══════════════════════════════════════════════════ */
+#scene-fade {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.45s ease;
+  z-index: 500;
+}
+#scene-fade.active {
+  opacity: 1;
+}
+
+/* ═══════════════════════════════════════════════════
+   LOADING SCREEN
+═══════════════════════════════════════════════════ */
+#loading {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: opacity 0.6s ease;
+}
+.loading-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.22em;
+  color: rgba(180, 210, 255, 0.45);
+  text-transform: uppercase;
+}
+.loading-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(180, 210, 255, 0.6);
+  box-shadow: 0 0 12px 4px rgba(100, 160, 255, 0.25);
+  animation: loadPulse 1.6s ease-in-out infinite;
+}
+@keyframes loadPulse {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+}
+
+/* ═══════════════════════════════════════════════════
+   CONSTELLATION UI LAYER
+═══════════════════════════════════════════════════ */
+#constellation-ui {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10;
+  transition: opacity 0.4s ease;
+}
+#constellation-ui.hidden {
+  opacity: 0;
+  pointer-events: none !important;
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2.8rem 2rem;
+  gap: 0.55rem;
+}
+
+#constellation-title {
+  font-family: "Cinzel", serif;
+  font-weight: 300;
+  font-size: clamp(1.4rem, 3vw, 2.6rem);
+  letter-spacing: 0.35em;
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow:
+    0 0 30px rgba(160, 200, 255, 0.7),
+    0 0 60px rgba(100, 150, 255, 0.35);
+  min-height: 3.5rem;
+  opacity: 0;
+  transition:
+    opacity 0.45s ease,
+    color 0.35s ease,
+    text-shadow 0.35s ease;
+  text-align: center;
+}
+
+.hint {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  transition: opacity 0.35s;
+}
+#click-hint {
+  color: rgba(180, 215, 255, 0.6);
+}
+#star-hint {
+  color: rgba(200, 230, 255, 0.55);
+}
+#no-system-hint {
+  color: rgba(255, 195, 100, 0.6);
+  font-style: italic;
+}
+.hint.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#bottom-hint {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.16);
+  text-align: center;
+  max-width: 640px;
+  line-height: 1.7;
+  transition: opacity 0.55s ease;
+}
+
+#const-back-btn {
+  position: fixed;
+  left: 3.5rem;
+  top: 3.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: linear-gradient(
+    120deg,
+    rgba(21, 0, 34, 0.3) 0%,
+    rgba(0, 177, 242, 0.7) 100%
+  );
+  border: 0.2rem solid white;
+  outline: none;
+  border-radius: 3rem;
+  color: white;
+  cursor: pointer;
+  pointer-events: all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  transition:
+    box-shadow 0.2s,
+    opacity 0.4s;
+}
+#const-back-btn img {
+  height: 2rem;
+  width: 2rem;
+}
+#const-back-btn:hover {
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.8);
+}
+#const-back-btn.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ═══════════════════════════════════════════════════
+   SOLAR SYSTEM UI LAYER
+═══════════════════════════════════════════════════ */
+#solar-ui {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10;
+  transition: opacity 0.4s ease;
+}
+#solar-ui.hidden {
+  opacity: 0;
+  pointer-events: none !important;
+}
+
+#solar-back-btn {
+  position: fixed;
+  left: 3.5rem;
+  top: 3.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: linear-gradient(
+    120deg,
+    rgba(21, 0, 34, 0.3) 0%,
+    rgba(0, 177, 242, 0.7) 100%
+  );
+  border: 0.2rem solid white;
+  outline: none;
+  border-radius: 3rem;
+  color: white;
+  cursor: pointer;
+  pointer-events: all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  transition: box-shadow 0.2s;
+}
+#solar-back-btn.hidden-planet {
+  display: none;
+}
+#solar-back-btn img {
+  height: 2rem;
+  width: 2rem;
+}
+#solar-back-btn:hover {
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.8);
+}
+
+/* ═══════════════════════════════════════════════════
+   CIARNURO ORIGINAL STYLES — UNCHANGED
+   (planet-detail backButton, description, info panel…)
+═══════════════════════════════════════════════════ */
+
+.backButton {
+  position: fixed;
+  left: 3.5rem;
+  top: 3.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: linear-gradient(
+    120deg,
+    rgba(21, 0, 34, 0.3) 0%,
+    rgba(0, 177, 242, 0.7) 100%
+  );
+  border: 0.2rem solid white;
+  outline: none;
+  border-radius: 3rem;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+.backButton img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 auto;
+}
+.backButton:hover {
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.8);
+}
+
+.description {
+  position: absolute;
+  right: 5rem;
+  top: 15rem;
+  height: 45rem;
+  width: 37rem;
+  background: linear-gradient(
+    135deg,
+    rgba(137, 231, 255, 0.5) 0%,
+    rgba(137, 231, 255, 0.2) 50%,
+    rgba(137, 231, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(1rem);
+  z-index: 1;
+  border-radius: 3rem;
+  padding: 3rem;
+  font-size: 1.2rem;
+  box-shadow:
+    0 6px 6px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(137, 231, 255, 0.6);
+  color: white;
+}
+
+.title {
+  font-size: 5rem;
+  position: absolute;
+  left: 50rem;
+  top: 2rem;
+  z-index: 1;
+  background-image: linear-gradient(
+    140deg,
+    rgb(255, 255, 255) 35%,
+    rgba(64, 145, 174) 100%
+  );
+  text-shadow: 0 0 1rem rgba(255, 255, 255, 0.3);
+  color: transparent;
+  background-clip: text;
+}
+
+.descriptionButton {
+  position: absolute;
+  bottom: 5.5rem;
+  height: 3rem;
+  width: 3rem;
+  background: linear-gradient(
+    120deg,
+    rgba(96, 0, 156, 0.3) 0%,
+    rgba(0, 177, 242, 0.7) 100%
+  );
+  z-index: 1;
+  border: 0.2rem solid white;
+  outline: none;
+  border-radius: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descriptionButton img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 auto;
+}
+.descriptionButton:hover {
+  background: rgba(0, 177, 242);
+}
+#first {
+  right: 10rem;
+}
+#second {
+  right: 6rem;
+  transform: scaleX(-1);
+}
+
+/* ── Info panel ─────────────────────────────────── */
+.info-panel {
+  position: fixed;
+  right: 3rem;
+  top: 8rem;
+  width: 42rem;
+  max-height: 70vh;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 100, 200, 0.15) 0%,
+    rgba(30, 144, 255, 0.08) 50%,
+    rgba(100, 150, 255, 0.05) 100%
+  );
+  backdrop-filter: blur(1.2rem);
+  border: 1px solid rgba(100, 200, 255, 0.4);
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  z-index: 100;
+  box-shadow:
+    0 8px 32px rgba(0, 150, 255, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  font-family: "Lora", serif;
+  color: rgba(255, 255, 255, 0.95);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.panel-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  background: linear-gradient(135deg, #e0f7ff 0%, #87ceeb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 20px rgba(135, 206, 235, 0.3);
+  letter-spacing: 0.05em;
+}
+.panel-type {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba(135, 206, 235, 0.8);
+  margin: 0 0 1.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.9;
+}
+.panel-content {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 1rem;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 200, 255, 0.5) rgba(100, 200, 255, 0.1);
+}
+.panel-content::-webkit-scrollbar {
+  width: 0.6rem;
+}
+.panel-content::-webkit-scrollbar-track {
+  background: rgba(100, 200, 255, 0.1);
+  border-radius: 0.3rem;
+}
+.panel-content::-webkit-scrollbar-thumb {
+  background: rgba(100, 200, 255, 0.5);
+  border-radius: 0.3rem;
+}
+.panel-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 200, 255, 0.8);
+}
+.panel-section {
+  margin-bottom: 2rem;
+}
+.panel-section h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgba(100, 200, 255, 0.95);
+  margin: 0 0 0.8rem 0;
+  border-bottom: 1px solid rgba(100, 200, 255, 0.3);
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.panel-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+  text-align: justify;
+}
+.panel-specs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.panel-specs li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgba(100, 200, 255, 0.2);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+.panel-specs li:last-child {
+  border-bottom: none;
+}
+.panel-specs strong {
+  color: rgba(135, 206, 235, 0.95);
+  font-weight: 600;
+}
+.panel-thumbnail {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid rgba(100, 200, 255, 0.4);
+  box-shadow: 0 4px 16px rgba(0, 150, 255, 0.2);
+  margin-top: 1rem;
+}
+
+/* ═══════════════════════════════════════════════════
+   EXPLORE BUTTON (inline below constellation title)
+═══════════════════════════════════════════════════ */
+#explore-btn {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(220, 245, 255, 0.92);
+  background: linear-gradient(
+    120deg,
+    rgba(21, 0, 50, 0.35) 0%,
+    rgba(0, 120, 210, 0.55) 100%
+  );
+  border: 1px solid rgba(135, 206, 255, 0.5);
+  border-radius: 3rem;
+  padding: 0.65rem 2.2rem;
+  cursor: pointer;
+  pointer-events: all;
+  backdrop-filter: blur(6px);
+  outline: none;
+  box-shadow:
+    0 0 14px rgba(0, 140, 255, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.07);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease,
+    box-shadow 0.25s,
+    background 0.25s;
+  opacity: 1;
+}
+#explore-btn.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(4px);
+}
+#explore-btn:hover {
+  box-shadow:
+    0 0 22px rgba(100, 200, 255, 0.45),
+    0 0 6px rgba(255, 255, 255, 0.12);
+  background: linear-gradient(
+    120deg,
+    rgba(30, 0, 70, 0.45) 0%,
+    rgba(0, 160, 255, 0.7) 100%
+  );
+  border-color: rgba(180, 225, 255, 0.75);
+}

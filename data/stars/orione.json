@@ -1,0 +1,235 @@
+{
+  "stars": [
+    {
+      "x": -6,
+      "y": -1.5,
+      "name": "Zhàrakosh",
+      "hasSystem": false,
+      "type": "Red Supergiant",
+      "magnitude": 0.42,
+      "distanceLY": 700
+    },
+    {
+      "x": -6,
+      "y": -0.2,
+      "name": "Ivrax",
+      "hasSystem": false,
+      "type": "Red Supergiant",
+      "magnitude": 0.42,
+      "distanceLY": 700
+    },
+    {
+      "x": -5.8,
+      "y": 0,
+      "name": "Zhàraky",
+      "hasSystem": false,
+      "type": "Blue Giant",
+      "magnitude": 1.64,
+      "distanceLY": 243
+    },
+    {
+      "x": -5.7,
+      "y": 0.2,
+      "name": "Zhavory",
+      "hasSystem": false,
+      "type": "Multiple Star System",
+      "magnitude": 2.23,
+      "distanceLY": 900
+    },
+    {
+      "x": -5.5,
+      "y": 0.4,
+      "name": "Zhory",
+      "hasSystem": false,
+      "type": "Blue Supergiant",
+      "magnitude": 1.7,
+      "distanceLY": 2000
+    },
+    {
+      "x": -5.1,
+      "y": 0,
+      "name": "Zhàly",
+      "hasSystem": false,
+      "type": "Triple Star System",
+      "magnitude": 1.77,
+      "distanceLY": 1260
+    },
+    {
+      "x": -4.5,
+      "y": -0.8,
+      "name": "Zhòyr",
+      "hasSystem": false,
+      "type": "Blue Supergiant",
+      "magnitude": 2.09,
+      "distanceLY": 724
+    },
+    {
+      "x": -6.4,
+      "y": 1.4,
+      "name": "Turshà",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -6.6,
+      "y": 1.7,
+      "name": "Erash't",
+      "hasSystem": false,
+      "type": "Double Star",
+      "magnitude": 3.33,
+      "distanceLY": 1100
+    },
+    {
+      "x": -7,
+      "y": 2.2,
+      "name": "Zhar'tal",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -6.8,
+      "y": 2.3,
+      "name": "Zenoral",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -6.9,
+      "y": 3.1,
+      "name": "Erkal",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -6.6,
+      "y": 3.2,
+      "name": "Zaxy",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -5.8,
+      "y": 1.8,
+      "name": "Zhaelith",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -5.4,
+      "y": 1.4,
+      "name": "Erivor",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -4.6,
+      "y": 2.8,
+      "name": "Zhar'vyn",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -4.4,
+      "y": 2.6,
+      "name": "Zivot",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -4.3,
+      "y": 2.2,
+      "name": "Zhàyt",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -4,
+      "y": 2,
+      "name": "Ervalion",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -3.9,
+      "y": 1.7,
+      "name": "Eralt",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -3.7,
+      "y": 1.5,
+      "name": "Zhor'tal",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -4.1,
+      "y": 0.8,
+      "name": "Zaxav",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    },
+    {
+      "x": -4.3,
+      "y": 0.7,
+      "name": "Erval",
+      "hasSystem": false,
+      "type": "Blue-White Supergiant",
+      "magnitude": 0.13,
+      "distanceLY": 860
+    }
+  ],
+  "lines": [
+    [0, 2],
+    [2, 3],
+    [2, 7],
+    [7, 8],
+    [8, 10],
+    [10, 12],
+    [12, 11],
+    [11, 9],
+    [3, 4],
+    [4, 5],
+    [5, 6],
+    [4, 14],
+    [14, 13],
+    [13, 7],
+    [14, 7],
+    [15, 16],
+    [16, 17],
+    [18, 17],
+    [18, 19],
+    [21, 22],
+    [19, 21],
+    [14, 19]
+  ]
+}

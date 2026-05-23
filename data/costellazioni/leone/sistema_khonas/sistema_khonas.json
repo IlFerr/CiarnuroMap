@@ -1,0 +1,129 @@
+{
+  "celestialBodies": [
+    {
+      "name": "Khònas",
+      "sunDistance": 0,
+      "type": "nana rossa M6",
+      "diameter": 50,
+      "description": "Stella nana rossa di classe M6, stabile e longeva. Fornisce energia al sistema planetario di Khònas e definisce una fascia abitabile molto ravvicinata.",
+      "baseTexture": "assets/textures/sistema_khonas/khonas/khonas.jpg",
+      "bumpTexture": "assets/textures/sistema_khonas/khonas/khonas_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khonas/khonas/khonas_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khonas/khonas/khonas_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khonas/khonas/khonas_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Khàr-Kàris",
+      "sunDistance": 10,
+      "type": "tellurico del silicio",
+      "diameter": 10,
+      "description": "Khàr-Kàris è un pianeta roccioso di modeste dimensioni, poco più grande della patria degli Umani, che orbita a circa 3 unità astronomiche dalla propria stella. La superficie di Khàr-Kàris è completamente esposta al vuoto siderale ed è vessata da intense attività vulcaniche che modellano costantemente il paesaggio con immense colate laviche e potenti eruzioni. Il cielo di questo rabbioso ed infernale pianeta si presenta nero e privo di stelle, mentre la sua superficie acceca la vista poiché riflette con vigore la luce rossa emanata dalla propria stella madre. Khàr-Kàris è un pianeta estremamente ostile alla vita ma molto remunerativo dal punto di vista turistico, poiché grazie alla sua rapida rotazione da vita a fenomeni geologici particolarmente divertenti: come le pianure laviche a pelle di drago, i vortici di magma che lentamente si trasformano in piramidi incandescenti e le meravigliose correnti magmatiche lampeggianti. Tali fenomeni naturali unici, grazie alla specie Qüark, possono essere ammirati dalla stazione spaziale Fiamma Empirea di Kàris che offre punti di osservazione dotati di tutti comfort a prezzi accessibili.",
+      "baseTexture": "assets/textures/sistema_khonas/khar_karis/khar_karis.jpg",
+      "bumpTexture": "assets/textures/sistema_khonas/khar_karis/khar_karis_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khonas/khar_karis/khar_karis_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khonas/khar_karis/khar_karis_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khonas/khar_karis/khar_karis_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Khàr-Quàris",
+      "sunDistance": 20,
+      "type": "tellurico del silicio",
+      "diameter": 5,
+      "description": "Khàr-Quàris è il secondo globo roccioso che orbita attorno alla stella di Khònas. La sua sottile atmosfera è composta principalmente da anidride carbonica ma presenta anche tracce di azoto, ossigeno, acqua e monossido di carbonio, elementi che suggeriscono ma non confermano possibili bacini d’acqua intrappolati nelle profondità della terra. La superficie di Khàr-Quàris è un trionfo di distese rocciose pallide e taglienti al cospetto di alte catene montuose dai chiari colori e dai picchi acuminati. Tra le vette delle catene montuose talvolta si estendono ampi spiazzi desertici dove il vento freddo e impetuoso solleva nubi di sabbia molto fine che si diffondono in ogni direzione. Sulla superficie di Khàr-Quàris non sono presenti forme di vita allo stato complesso, tuttavia sono stati trovati, durante alcuni scavi minerari, batteri anaerobici e virus in attesa di organismi complessi da aggredire. Khàr-Quàris nonostante la sua composizione non sembra essere un pianeta ricco di elementi preziosi, tuttavia le sue rocce estremamente dure e pallide vengono impiegate per la creazione di edifici in pietra e la creazione di mattoni ad alta resistenza.",
+      "baseTexture": "assets/textures/sistema_khonas/khar_quaris/khar_quaris.jpg",
+      "bumpTexture": "assets/textures/sistema_khonas/khar_quaris/khar_quaris_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khonas/khar_quaris/khar_quaris_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khonas/khar_quaris/khar_quaris_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khonas/khar_quaris/khar_quaris_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Khàr-Nahàr",
+      "sunDistance": 30,
+      "type": "tellurico del silicio",
+      "diameter": 10,
+      "description": "Khàr-Nahàr è un pianeta che in miliardi di anni di evoluzione è riuscito senza interventi esterni a sviluppare la vita e dare avvio ad un ecosistema globale complesso. Anche se ancora in fase di sviluppo dal punto di vista biologico Khàr-Nahàr possiede le potenzialità per trasformarsi in una vera terra, grazie alla presenza di un’atmosfera stabile avente alti livelli di ossigeno, i quali però hanno ingigantito sia la flora che la fauna e reso tutti gli esseri viventi più aggressivi della norma. Khàr-Nahàr visto dallo spazio si presenta come un immenso pianeta verde e non blu come la maggior parte dei pianeti terraformati dalle specie avanzate, poiché più dell’80% della sua superficie è ricoperta da alberi con foglie a vela che superano senza sforzo i 100 metri di altezza. Su Khàr-Nahàr la fauna terrestre ha assunto corporature enormi e forme particolari ma nulla in confronto ai mostri che presidiano i fondali marini come il Galror, un enorme riccio di mare di oltre 30 tonnellate e 45 metri di diametro dotato di lunghi tentacoli capaci di scalare le barriere coralline e aculei tanto resistenti da trapassare lo scafo di una nave da guerra. La più grande minaccia di Khàr-Nahàr però non milita tra le file della fauna ma della flora, infatti, enormi piante carnivore popolano e dettano legge nelle aree pianeggianti e nelle regioni costiere. Tali mostruosità sono dotate di una sorprendente rapidità e armi da far invidia al più feroce dei predatori: come dardi avvelenati, aculei urticanti, aculei paralizzanti, lunghi steli mobili capaci di avvolgere velocemente le prede e fiori che cambiano il loro profumo per attirare diverse tipologie di insetti e specie animali, tuttavia, l’arma principale che contraddistingue tutte le piante carnivore di Khàr-Nahàr si identifica in una grossa sacca frontale, composta da grandi lembi a forma di petalo, capace di intrappolare in pochi secondi e digerire con lunghi processi chimici le proprie prede. Tale sacca a forma di fiore è abbastanza grande da contenere un essere Umano e possiede al proprio interno peli urticanti. L’altezza media di una pianta carnivora di Khàr-Nahàr è di circa 10 metri ma è possibile imbattersi in mostruosità floreali di oltre 40 metri capaci di abbattere persino un elefante. In alcune zone del pianeta le foreste hanno ceduto il passo a sterminate paludi popolate da anfibi e rettili giganti, tali paludi sono anche il regno degli insetti e degli aracnidi il cui veleno è molto ricercato dai cacciatori di taglie. I cieli di Khàr-Nahàr sono l’unica zona del pianeta priva di creature enormi e minacciose poiché la maggior parte dei volatili animali si è evoluta privilegiando la mobilità e la velocità, caratteristiche essenziali per sfuggire alle dotazioni belliche in possesso dai grandi predatori ma soprattutto dalle spietate piante carnivore. Nel complesso Khàr-Nahàr è un mondo in via di sviluppo che incarna sia la bellezza che i pericoli della natura, ciò però non ha impedito alla specie Qüark di erigere fiorenti insediamenti e colonizzare il pianeta in maniera massiccia.",
+      "baseTexture": "assets/textures/sistema_khonas/khar_nahar/khar_nahar.jpg",
+      "bumpTexture": "assets/textures/sistema_khonas/khar_nahar/khar_nahar_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khonas/khar_nahar/khar_nahar_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khonas/khar_nahar/khar_nahar_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khonas/khar_nahar/khar_nahar_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Nàr",
+      "sunDistance": 30,
+      "type": "tellurico del silicio",
+      "diameter": 2,
+      "description": "Nàr è l’unico satellite di Khàr-Nahàr e si presenta come una pallida sfera rocciosa ricoperta da crateri da impatto e rilievi levigati dalle sabbie. La temperatura media del pianeta si attesta attorno ai -30°C a causa della presenza di un’atmosfera sottile che incredibilmente riesce a trattenere i vapori emessi dalle flebili attività geotermiche della luna. Nàr anche se si presenta come un luogo inospitale e desolato è stato selezionato dai Qüark come oggetto celeste da terraformare entro l’anno 2165, infatti, un’enorme base scientifica dell’Alleanza costruita nelle sue profondità fra gli anni 2125 e 2130 opera già a pieno regime per raggiungere tale obiettivo. Nàr rappresenta per la specie Qüark anche un oggetto celeste difensivo poiché candidato a guidare mediante un sofisticato centro di comando la futura griglia bellica di Khàr-Nahàr.",
+      "baseTexture": "assets/textures/sistema_khonas/nar/nar.jpg",
+      "bumpTexture": "assets/textures/sistema_khonas/nar/nar_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khonas/nar/nar_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khonas/nar/nar_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khonas/nar/nar_light.jpg",
+      "PlanetDistance": 4
+    },
+    {
+      "name": "Rooryà",
+      "sunDistance": 45,
+      "type": "tellurico del silicio",
+      "diameter": 5,
+      "description": "Rooryà è un pianeta in possesso di un’atmosfera bilanciata e un ecosistema globale complesso due qualità rare e straordinarie che hanno attirato l’attenzione delle specie tecnologicamente avanzate e favorito la sua colonizzazione su larga scala. La superficie di Rooryà è dominata da continenti estesi e pianeggianti aventi rilievi rocciosi sporadici e poco elevati. I paesaggi di Rooryà generalmente appagano la vista e lasciano all’osservatore un senso di apertura e libertà. Le pianure sconfinate sono il tratto distintivo del pianeta e a macchie si compongono di zone boschive, piane erbose e aquitrini. Il pianeta possiede un unico immenso oceano globale concentrato nella parte sud del globo che in parte si allunga e supera la linea dell’equatore. Le acque oceaniche di Rooryà sono relativamente calme, poco profonde e circondano una quantità infinita di piccole isolette collinari ricoperte da una vegetazione molto folta. Il clima del globo è prevalentemente temperato con stagioni ben definite ma non estreme ad eccezione delle zone polari che possono raggiungere temperature prossime ai -80°C. Le zone tropicali sono limitate e concentrate nella fascia equatoriale dove il caldo è costante e l’alta pressione respinge i venti temperati. Rooryà, essendo un globo prevalentemente temperato, presenta regioni polari poco estese ma significative, con spesse distese di ghiaccio e ampie tundre e taighe che si frappongono fra le calotte polari e le interminabili pianure. Rooryà dal 2040 è una terra governata dai Qüark sulla quale hanno edificato ampi insediamenti civili che ospitano circa il 4% della loro popolazione cosmica.",
+      "baseTexture": "assets/textures/sistema_khonas/roorya/roorya.jpg",
+      "bumpTexture": "assets/textures/sistema_khonas/roorya/roorya_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khonas/roorya/roorya_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khonas/roorya/roorya_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khonas/roorya/roorya_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Roa",
+      "sunDistance": 55,
+      "type": "tellurico del silicio",
+      "diameter": 1,
+      "description": "Roa è un satellite roccioso terraformato dai Syviar nell’anno 1342 e riscattato politicamente dai Qüark nell’anno 2040. Dal punto di vista fisico Roa è una sfera perfetta terraformata in maniera eccelsa e in possesso di un oceano profondo oltre 22 km. Il globo è protetto da un sofisticato campo energetico alimentato da un artefatto incantato Syviar che fornisce al sistema difensivo l’energia richiesta per funzionare ininterrottamente, inoltre le energie sprigionate dal manufatto possono abbassare o alzare la gravità generale del satellite entro determinati limiti (0,075 G - 3 G). Roa oltre ad essere una microterra dotata di un ecosistema globale avanzato e un’atmosfera bilanciata è anche un satellite fortezza, poiché dotato di armi di superficie capaci di offendere i vascelli e le flotte spaziali ben oltre l’orbita di Rooryà.",
+      "baseTexture": "assets/textures/sistema_khonas/roa/roa.jpg",
+      "bumpTexture": "assets/textures/sistema_khonas/roa/roa_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khonas/roa/roa_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khonas/roa/roa_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khonas/roa/roa_light.jpg",
+      "PlanetDistance": 3
+    },
+    {
+      "name": "Kooràn",
+      "sunDistance": 70,
+      "type": "ghiacciato",
+      "diameter": 15,
+      "description": "Kooràn è un gigante ghiacciato dalle dimensioni notevoli che tramite la propria orbita definisce con precisione i confini del sistema solare di Khònas e con il proprio campo magnetico difende il sistema dagli asteroidi in arrivo. Il cuore ferroso di Kooràn è circondato da uno spesso strato di elementi ghiacciati e un’atmosfera tempestosa, composta da idrogeno, elio, argon, metano, monossido di carbonio e acqua che danno al pianeta il suo caratteristico colore azzurro. Le tempeste che imperversano sul pianeta sono pari a quelle presenti su un gigante gassoso e modellano costantemente la sua superficie con venti che soffiano oltre i 1600 km/h. Kooràn, essendo un grande pianeta posto ai confini del proprio sistema solare, ha inevitabilmente creato una fascia di asteroidi attorno alla propria orbita, tale fascia è conosciuta con il nome di fascia di Kooràn ed oltre a separare simbolicamente i domini di Khònas dallo spazio esterno, viene utilizzata dai Qüark di Rooryà come zona mineraria sospesa e zona militare per la difesa interstellare proattiva.",
+      "baseTexture": "assets/textures/sistema_khonas/kooran/kooran.jpg",
+      "bumpTexture": "assets/textures/sistema_khonas/kooran/kooran_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khonas/kooran/kooran_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khonas/kooran/kooran_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khonas/kooran/kooran_light.jpg",
+      "PlanetDistance": 0
+    },
+    {
+      "name": "Koa",
+      "sunDistance": 12,
+      "type": "tellurico del silicio",
+      "diameter": 3,
+      "description": "Koa è un globo roccioso che gira attorno a Kooràn in possesso di un’atmosfera sottile ricca di anidride carbonica e un nucleo interno ancora geologicamente attivo. La superficie di questo globo roccioso è completamente sfregiata da crateri da impatto molto ampi e da profondi varchi nella crosta terrestre che rendono il satellite estremamente pericoloso da esplorare. Il pianeta causa della sua diretta esposizione alla fascia di Kooràn è costantemente bombardato dalla caduta di piccoli asteroidi che creano sempre nuovi crateri e modellano i già devastati paesaggi del satellite. L’atmosfera di Roa è composta principalmente da anidride carbonica con tracce di elio e argon, elementi che uniti alle glaciali temperature presenti sul pianeta non consentono la sopravvivenza di alcuna forma di vita. Seppur inospitale e costantemente colpito da piogge di meteoriti provenienti dalla fascia di Kooràn, Roa rappresenta per i Qüark un globo minerario molto importante; infatti, all’interno di alcune delle sue più profonde spaccature alcuni folli minatori spaziali, nell’anno 2044, hanno rinvenuto alte concentrazioni di nichel, rame, platino e palladio, elementi molto utili per l’industria metallurgica dell’ACQ e freneticamente scambiati sulle piazze di contrattazione di Khàr-Khàr.",
+      "baseTexture": "assets/textures/sistema_khonas/koa/koa.jpg",
+      "bumpTexture": "assets/textures/sistema_khonas/koa/koa_bump.jpg",
+      "cloudTexture": "assets/textures/sistema_khonas/koa/koa_cloud.jpg",
+      "dumpCloudTexture": "assets/textures/sistema_khonas/koa/koa_cloud_dump.jpg",
+      "lightTexture": "assets/textures/sistema_khonas/koa/koa_light.jpg",
+      "PlanetDistance": 4
+    }
+  ],
+  "asteroid": [
+    {
+      "distance": 60
+    },
+    {
+      "distance": 90
+    }
+  ]
+}
