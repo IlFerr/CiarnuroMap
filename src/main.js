@@ -332,7 +332,7 @@ const solarCamera = new THREE.PerspectiveCamera(
   0.1,
   1200,
 );
-const SOLAR_BASE = { x: 0, y: 0, z: 5 };
+const SOLAR_BASE = { x: -8, y: 6, z: 28 };
 solarCamera.position.set(SOLAR_BASE.x, SOLAR_BASE.y, SOLAR_BASE.z);
 
 const solarControls = new OrbitControls(solarCamera, canvas);
@@ -397,10 +397,9 @@ function onPlanetClick(group) {
     target: solarControls.target.clone(),
   };
   viewingPlanet = true;
-  solarControls.enableZoom =
-    solarControls.enablePan =
-    solarControls.enableRotate =
-      false;
+  solarControls.enableZoom = false;
+  solarControls.enablePan = false;
+  solarControls.enableRotate = true;
 
   const worldPos = new THREE.Vector3();
   group.getWorldPosition(worldPos);
@@ -427,9 +426,7 @@ function onPlanetClick(group) {
   newCamPos.y = SOLAR_BASE.y;
   newCamPos.z += dist;
   solarCamera.position.copy(newCamPos);
-  solarControls.target.copy(
-    worldPos.clone().addScaledVector(new THREE.Vector3(1, 0, 0), 0.4 * dist),
-  );
+  solarControls.target.copy(worldPos);
   solarControls.update();
   solarBackBtn.classList.add("hidden-planet");
   mostraAttributi(group, { tornaIndietroCallback: tornaIndietroPianeta });
@@ -454,6 +451,7 @@ function tornaIndietroPianeta() {
     solarControls.maxDistance = 200;
   }
   solarCamera.position.set(SOLAR_BASE.x, SOLAR_BASE.y, SOLAR_BASE.z);
+  solarControls.target.set(0, 0, 0);
   solarBackBtn.classList.remove("hidden-planet");
   rimuoviAttributi();
   solarControls.update();
