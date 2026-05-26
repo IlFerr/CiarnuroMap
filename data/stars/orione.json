@@ -2,7 +2,7 @@
   "stars": [
     {
       "x": -7,
-      "y": -1.5,
+      "y": -2.5,
       "name": "Zhàrakosh",
       "hasSystem": false,
       "type": "Red Supergiant",
@@ -11,7 +11,7 @@
     },
     {
       "x": -7,
-      "y": -0.2,
+      "y": -1.2,
       "name": "Ivrax",
       "hasSystem": false,
       "type": "Red Supergiant",
@@ -20,7 +20,7 @@
     },
     {
       "x": -6.8,
-      "y": 0,
+      "y": -1,
       "name": "Zhàraky",
       "hasSystem": false,
       "type": "Blue Giant",
@@ -29,7 +29,7 @@
     },
     {
       "x": -6.7,
-      "y": 0.2,
+      "y": -0.8,
       "name": "Zhavory",
       "hasSystem": false,
       "type": "Multiple Star System",
@@ -38,7 +38,7 @@
     },
     {
       "x": -6.5,
-      "y": 0.4,
+      "y": -0.6,
       "name": "Zhory",
       "hasSystem": false,
       "type": "Blue Supergiant",
@@ -47,7 +47,7 @@
     },
     {
       "x": -6.1,
-      "y": 0,
+      "y": -1,
       "name": "Zhàly",
       "hasSystem": false,
       "type": "Triple Star System",
@@ -56,7 +56,7 @@
     },
     {
       "x": -5.5,
-      "y": -0.8,
+      "y": -1.8,
       "name": "Zhòyr",
       "hasSystem": false,
       "type": "Blue Supergiant",
@@ -65,7 +65,7 @@
     },
     {
       "x": -7.4,
-      "y": 1.4,
+      "y": 0.4,
       "name": "Turshà",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -74,7 +74,7 @@
     },
     {
       "x": -7.6,
-      "y": 1.7,
+      "y": 0.7,
       "name": "Erash't",
       "hasSystem": false,
       "type": "Double Star",
@@ -83,7 +83,7 @@
     },
     {
       "x": -8,
-      "y": 2.2,
+      "y": 1.2,
       "name": "Zhar'tal",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -92,7 +92,7 @@
     },
     {
       "x": -7.8,
-      "y": 2.3,
+      "y": 1.3,
       "name": "Zenoral",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -101,7 +101,7 @@
     },
     {
       "x": -7.9,
-      "y": 3.1,
+      "y": 2.1,
       "name": "Erkal",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -110,7 +110,7 @@
     },
     {
       "x": -7.6,
-      "y": 3.2,
+      "y": 2.2,
       "name": "Zaxy",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -119,7 +119,7 @@
     },
     {
       "x": -6.8,
-      "y": 1.8,
+      "y": 0.8,
       "name": "Zhaelith",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -128,7 +128,7 @@
     },
     {
       "x": -6.4,
-      "y": 1.4,
+      "y": 0.4,
       "name": "Erivor",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -137,7 +137,7 @@
     },
     {
       "x": -5.6,
-      "y": 2.8,
+      "y": 1.8,
       "name": "Zhar'vyn",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -146,7 +146,7 @@
     },
     {
       "x": -5.4,
-      "y": 2.6,
+      "y": 1.6,
       "name": "Zivot",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -155,7 +155,7 @@
     },
     {
       "x": -5.3,
-      "y": 2.2,
+      "y": 1.2,
       "name": "Zhàyt",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -164,7 +164,7 @@
     },
     {
       "x": -5,
-      "y": 2,
+      "y": 1,
       "name": "Ervalion",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -173,7 +173,7 @@
     },
     {
       "x": -4.9,
-      "y": 1.7,
+      "y": 0.7,
       "name": "Eralt",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -182,7 +182,7 @@
     },
     {
       "x": -4.7,
-      "y": 1.5,
+      "y": 0.5,
       "name": "Zhor'tal",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -191,7 +191,7 @@
     },
     {
       "x": -5.1,
-      "y": 0.8,
+      "y": -0.2,
       "name": "Zaxav",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
@@ -200,7 +200,7 @@
     },
     {
       "x": -5.3,
-      "y": 0.7,
+      "y": -0.3,
       "name": "Erval",
       "hasSystem": false,
       "type": "Blue-White Supergiant",
