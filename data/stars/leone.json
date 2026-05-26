@@ -1,7 +1,7 @@
 {
   "stars": [
     {
-      "x": 3.2,
+      "x": 4.2,
       "y": -0.5,
       "name": "Khar-khil",
       "hasSystem": false,
@@ -10,7 +10,7 @@
       "distanceLY": 79
     },
     {
-      "x": 3.2,
+      "x": 4.2,
       "y": -0.1,
       "name": "Kar-kronis",
       "hasSystem": false,
@@ -19,7 +19,7 @@
       "distanceLY": 36
     },
     {
-      "x": 3.5,
+      "x": 4.5,
       "y": 0.3,
       "name": "Kar-karn",
       "hasSystem": false,
@@ -28,7 +28,7 @@
       "distanceLY": 130
     },
     {
-      "x": 2.9,
+      "x": 3.9,
       "y": 0.35,
       "name": "Kar-kira",
       "hasSystem": false,
@@ -37,7 +37,7 @@
       "distanceLY": 58
     },
     {
-      "x": 3.6,
+      "x": 4.6,
       "y": 0.7,
       "name": "Kàg-Kar",
       "hasSystem": false,
@@ -46,7 +46,7 @@
       "distanceLY": 133
     },
     {
-      "x": 4.7,
+      "x": 5.7,
       "y": 0.6,
       "name": "Kàr-Kash",
       "hasSystem": false,
@@ -55,7 +55,7 @@
       "distanceLY": 260
     },
     {
-      "x": 4.8,
+      "x": 5.8,
       "y": 0.85,
       "name": "Kàs'kau",
       "hasSystem": false,
@@ -64,7 +64,7 @@
       "distanceLY": 165
     },
     {
-      "x": 5.3,
+      "x": 6.3,
       "y": 1,
       "name": "Kàras-kau",
       "hasSystem": false,
@@ -73,7 +73,7 @@
       "distanceLY": 165
     },
     {
-      "x": 5.8,
+      "x": 6.8,
       "y": 1.02,
       "name": "Kàlian",
       "hasSystem": false,
@@ -82,7 +82,7 @@
       "distanceLY": 165
     },
     {
-      "x": 5.7,
+      "x": 6.7,
       "y": 0.76,
       "name": "Kàurus",
       "hasSystem": false,
@@ -91,7 +91,7 @@
       "distanceLY": 165
     },
     {
-      "x": 5.4,
+      "x": 6.4,
       "y": 0.8,
       "name": "Khòoram",
       "hasSystem": false,
@@ -100,7 +100,7 @@
       "distanceLY": 165
     },
     {
-      "x": 5,
+      "x": 6,
       "y": 0.3,
       "name": "Khòris",
       "hasSystem": false,
@@ -109,7 +109,7 @@
       "distanceLY": 165
     },
     {
-      "x": 4.9,
+      "x": 5.9,
       "y": -0.2,
       "name": "Khònau",
       "hasSystem": false,
@@ -118,7 +118,7 @@
       "distanceLY": 165
     },
     {
-      "x": 3.87,
+      "x": 4.87,
       "y": -0.35,
       "name": "Khònas",
       "hasSystem": false,
@@ -127,7 +127,7 @@
       "distanceLY": 165
     },
     {
-      "x": 3.6,
+      "x": 4.6,
       "y": 0.9,
       "name": "Khòval",
       "hasSystem": false,

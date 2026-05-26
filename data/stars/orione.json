@@ -1,7 +1,7 @@
 {
   "stars": [
     {
-      "x": -6,
+      "x": -7,
       "y": -1.5,
       "name": "Zhàrakosh",
       "hasSystem": false,
@@ -10,7 +10,7 @@
       "distanceLY": 700
     },
     {
-      "x": -6,
+      "x": -7,
       "y": -0.2,
       "name": "Ivrax",
       "hasSystem": false,
@@ -19,7 +19,7 @@
       "distanceLY": 700
     },
     {
-      "x": -5.8,
+      "x": -6.8,
       "y": 0,
       "name": "Zhàraky",
       "hasSystem": false,
@@ -28,7 +28,7 @@
       "distanceLY": 243
     },
     {
-      "x": -5.7,
+      "x": -6.7,
       "y": 0.2,
       "name": "Zhavory",
       "hasSystem": false,
@@ -37,7 +37,7 @@
       "distanceLY": 900
     },
     {
-      "x": -5.5,
+      "x": -6.5,
       "y": 0.4,
       "name": "Zhory",
       "hasSystem": false,
@@ -46,7 +46,7 @@
       "distanceLY": 2000
     },
     {
-      "x": -5.1,
+      "x": -6.1,
       "y": 0,
       "name": "Zhàly",
       "hasSystem": false,
@@ -55,7 +55,7 @@
       "distanceLY": 1260
     },
     {
-      "x": -4.5,
+      "x": -5.5,
       "y": -0.8,
       "name": "Zhòyr",
       "hasSystem": false,
@@ -64,7 +64,7 @@
       "distanceLY": 724
     },
     {
-      "x": -6.4,
+      "x": -7.4,
       "y": 1.4,
       "name": "Turshà",
       "hasSystem": false,
@@ -73,7 +73,7 @@
       "distanceLY": 860
     },
     {
-      "x": -6.6,
+      "x": -7.6,
       "y": 1.7,
       "name": "Erash't",
       "hasSystem": false,
@@ -82,7 +82,7 @@
       "distanceLY": 1100
     },
     {
-      "x": -7,
+      "x": -8,
       "y": 2.2,
       "name": "Zhar'tal",
       "hasSystem": false,
@@ -91,7 +91,7 @@
       "distanceLY": 860
     },
     {
-      "x": -6.8,
+      "x": -7.8,
       "y": 2.3,
       "name": "Zenoral",
       "hasSystem": false,
@@ -100,7 +100,7 @@
       "distanceLY": 860
     },
     {
-      "x": -6.9,
+      "x": -7.9,
       "y": 3.1,
       "name": "Erkal",
       "hasSystem": false,
@@ -109,7 +109,7 @@
       "distanceLY": 860
     },
     {
-      "x": -6.6,
+      "x": -7.6,
       "y": 3.2,
       "name": "Zaxy",
       "hasSystem": false,
@@ -118,7 +118,7 @@
       "distanceLY": 860
     },
     {
-      "x": -5.8,
+      "x": -6.8,
       "y": 1.8,
       "name": "Zhaelith",
       "hasSystem": false,
@@ -127,7 +127,7 @@
       "distanceLY": 860
     },
     {
-      "x": -5.4,
+      "x": -6.4,
       "y": 1.4,
       "name": "Erivor",
       "hasSystem": false,
@@ -136,7 +136,7 @@
       "distanceLY": 860
     },
     {
-      "x": -4.6,
+      "x": -5.6,
       "y": 2.8,
       "name": "Zhar'vyn",
       "hasSystem": false,
@@ -145,7 +145,7 @@
       "distanceLY": 860
     },
     {
-      "x": -4.4,
+      "x": -5.4,
       "y": 2.6,
       "name": "Zivot",
       "hasSystem": false,
@@ -154,7 +154,7 @@
       "distanceLY": 860
     },
     {
-      "x": -4.3,
+      "x": -5.3,
       "y": 2.2,
       "name": "Zhàyt",
       "hasSystem": false,
@@ -163,7 +163,7 @@
       "distanceLY": 860
     },
     {
-      "x": -4,
+      "x": -5,
       "y": 2,
       "name": "Ervalion",
       "hasSystem": false,
@@ -172,7 +172,7 @@
       "distanceLY": 860
     },
     {
-      "x": -3.9,
+      "x": -4.9,
       "y": 1.7,
       "name": "Eralt",
       "hasSystem": false,
@@ -181,7 +181,7 @@
       "distanceLY": 860
     },
     {
-      "x": -3.7,
+      "x": -4.7,
       "y": 1.5,
       "name": "Zhor'tal",
       "hasSystem": false,
@@ -190,7 +190,7 @@
       "distanceLY": 860
     },
     {
-      "x": -4.1,
+      "x": -5.1,
       "y": 0.8,
       "name": "Zaxav",
       "hasSystem": false,
@@ -199,7 +199,7 @@
       "distanceLY": 860
     },
     {
-      "x": -4.3,
+      "x": -5.3,
       "y": 0.7,
       "name": "Erval",
       "hasSystem": false,
