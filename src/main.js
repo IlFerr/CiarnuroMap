@@ -322,17 +322,18 @@ function tickConstellation() {
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-//  SOLAR SCENE  (Ciarnuro, unchanged)
+//  SOLAR SCENE
 // ═════════════════════════════════════════════════════════════════════════════
 
 const solarScene = new THREE.Scene();
+solarScene.add(new THREE.AmbientLight(0xffffff, 0.18));
 const solarCamera = new THREE.PerspectiveCamera(
-  75,
+  45,
   window.innerWidth / window.innerHeight,
-  0.1,
-  1200,
+  0.05,
+  2000,
 );
-const SOLAR_BASE = { x: -8, y: 6, z: 28 };
+const SOLAR_BASE = { x: 0, y: 8, z: 32 };
 solarCamera.position.set(SOLAR_BASE.x, SOLAR_BASE.y, SOLAR_BASE.z);
 
 const solarControls = new OrbitControls(solarCamera, canvas);
@@ -347,6 +348,9 @@ let solarSystem = [];
 let viewingPlanet = false;
 let prevControls = null;
 let solarPointers = null;
+let systemCamPos = null;
+let systemCamTarget = null;
+let systemMaxDist = 500;
 
 const skyboxCube = new THREE.CubeTextureLoader().load([
   "./assets/textures/skybox/space_py.png",
@@ -367,8 +371,8 @@ async function loadSolarSystem(url) {
   solarScene.background = skyboxCube;
   solarCamera.position.set(SOLAR_BASE.x, SOLAR_BASE.y, SOLAR_BASE.z);
   solarControls.target.set(0, 0, 0);
-  solarControls.minDistance = 0.5;
-  solarControls.maxDistance = 200;
+  solarControls.minDistance = 0.2;
+  solarControls.maxDistance = 500;
   solarControls.enableZoom =
     solarControls.enablePan =
     solarControls.enableRotate =
@@ -384,6 +388,34 @@ async function loadSolarSystem(url) {
     textureLoader: solarTexLoader,
   });
   groups.forEach((g) => solarSystem.push(g));
+
+  if (groups.length > 0) {
+    let starRadius = 0;
+    let maxX = 0;
+    groups.forEach((g) => {
+      const x = g.position.x;
+      if (x === 0 && g.mesh?.geometry?.parameters?.radius) {
+        starRadius = g.mesh.geometry.parameters.radius;
+      }
+      maxX = Math.max(maxX, x);
+    });
+
+    const halfFovH = Math.atan(
+      Math.tan(THREE.MathUtils.degToRad(solarCamera.fov / 2)) * solarCamera.aspect
+    );
+    const camZ = 11;
+    const camY = 3;
+    const camX = 0;
+
+    solarCamera.position.set(camX, camY, camZ);
+    solarControls.target.set(maxX * 0.5, 0, 0);
+    solarControls.minDistance = 0.2;
+    solarControls.maxDistance = camZ * 6;
+    solarControls.update();
+    systemCamPos = solarCamera.position.clone();
+    systemCamTarget = solarControls.target.clone();
+    systemMaxDist = camZ * 6;
+  }
 }
 
 function onPlanetClick(group) {
@@ -417,14 +449,16 @@ function onPlanetClick(group) {
 
   let dist = solarCamera.position.distanceTo(worldPos);
   if (planetRadius && planetRadius > 0) {
-    const fovRad = THREE.MathUtils.degToRad(solarCamera.fov);
-    const ang = Math.min(Math.PI / 3, Math.max(0.01, 0.5 * 0.33 * fovRad));
-    dist = Math.min(1000, Math.max(0.3, (planetRadius / Math.sin(ang)) * 1.15));
+    // Fill ~40% of vertical FOV with the planet for a clear, undistorted view
+    const halfFovRad = THREE.MathUtils.degToRad(solarCamera.fov * 0.5);
+    dist = Math.min(500, Math.max(0.1, (planetRadius / Math.tan(halfFovRad * 0.4)) * 1.2));
   }
-  solarControls.minDistance = solarControls.maxDistance = dist;
-  const newCamPos = worldPos.clone();
-  newCamPos.y = SOLAR_BASE.y;
-  newCamPos.z += dist;
+  solarControls.minDistance = dist * 0.5;
+  solarControls.maxDistance = dist * 4;
+
+  // Approach from current camera direction (no arbitrary y/z offset) to avoid distortion
+  const dir = solarCamera.position.clone().sub(worldPos).normalize();
+  const newCamPos = worldPos.clone().addScaledVector(dir, dist);
   solarCamera.position.copy(newCamPos);
   solarControls.target.copy(worldPos);
   solarControls.update();
@@ -447,11 +481,16 @@ function tornaIndietroPianeta() {
       solarControls.enablePan =
       solarControls.enableRotate =
         true;
-    solarControls.minDistance = 0.5;
-    solarControls.maxDistance = 200;
+    solarControls.minDistance = 0.2;
+    solarControls.maxDistance = systemMaxDist;
   }
-  solarCamera.position.set(SOLAR_BASE.x, SOLAR_BASE.y, SOLAR_BASE.z);
-  solarControls.target.set(0, 0, 0);
+  if (systemCamPos) {
+    solarCamera.position.copy(systemCamPos);
+    solarControls.target.copy(systemCamTarget);
+  } else {
+    solarCamera.position.set(SOLAR_BASE.x, SOLAR_BASE.y, SOLAR_BASE.z);
+    solarControls.target.set(0, 0, 0);
+  }
   solarBackBtn.classList.remove("hidden-planet");
   rimuoviAttributi();
   solarControls.update();
