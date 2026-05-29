@@ -109,8 +109,8 @@ export function createPlanet(options = {}) {
 
   if (isStar) {
     const starRadius = Math.max(0.001, diameter / 1000);
-    const lightDistance = Math.max(50, diameter * 10);
-    const intensity = Math.max(1.0, diameter / 50);
+    const lightDistance = Math.max(100, diameter * 10);
+    const intensity = Math.max(13.0, diameter / 50);
     const decay = 0.8;
 
     const pointLight = new THREE.PointLight(
