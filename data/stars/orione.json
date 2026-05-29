@@ -4,7 +4,8 @@
       "x": -7,
       "y": -2.5,
       "name": "Zhàrakosh",
-      "hasSystem": false,
+      "hasSystem": true,
+      "systemFile": "data/costellazioni/orione/sistema_zharakosh/sistema_zharakosh.json",
       "type": "Red Supergiant",
       "magnitude": 0.42,
       "distanceLY": 700
@@ -13,7 +14,8 @@
       "x": -7,
       "y": -1.2,
       "name": "Ivrax",
-      "hasSystem": false,
+      "hasSystem": true,
+      "systemFile": "data/costellazioni/orione/sistema_ivrax/sistema_ivrax.json",
       "type": "Red Supergiant",
       "magnitude": 0.42,
       "distanceLY": 700
@@ -22,7 +24,8 @@
       "x": -6.8,
       "y": -1,
       "name": "Zhàraky",
-      "hasSystem": false,
+      "hasSystem": true,
+      "systemFile": "data/costellazioni/orione/sistema_zharaky/sistema_zharaky.json",
       "type": "Blue Giant",
       "magnitude": 1.64,
       "distanceLY": 243

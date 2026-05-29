@@ -121,7 +121,8 @@
       "x": 4.87,
       "y": -0.35,
       "name": "Khònas",
-      "hasSystem": false,
+      "hasSystem": true,
+      "systemFile": "data/costellazioni/leone/sistema_khonas/sistema_khonas.json",
       "type": "White Main Sequence",
       "magnitude": 3.33,
       "distanceLY": 165

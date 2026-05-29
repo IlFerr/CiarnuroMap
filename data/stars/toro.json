@@ -103,7 +103,8 @@
       "x": 0.8,
       "y": 4.1,
       "name": "Zhàmyr",
-      "hasSystem": false,
+      "hasSystem": true,
+      "systemFile": "data/costellazioni/toro/sistema_zhamyr/sistema_zhamyr.json",
       "type": "Blue-White Giant",
       "magnitude": 4.28,
       "distanceLY": 490
