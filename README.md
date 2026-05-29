@@ -5,7 +5,7 @@ Il progetto mira a creare un'esperienza immersiva che permetta di esplorare cost
 
 ## Descrizione
 
-Il progetto consiste in una **web app 3D** sviluppata con [Three.js](https://threejs.org/) e [Node.js](https://nodejs.org/), pensata per essere **eseguibile completamente offline**.
+Il progetto consiste in una **web app 3D** sviluppata con [Three.js](https://threejs.org/), pensata per essere **eseguibile completamente offline** senza alcuna dipendenza esterna o installazione.
 
 Include:
 
@@ -14,11 +14,23 @@ Include:
 - Struttura modulare dei dati in file JSON
 - Possibilità di estensione con layer narrativi, confini imperiali e biomi
 
+## Come avviare il progetto
+
+Essendo una web app statica, è sufficiente aprire `index.html` con un browser moderno.
+
+> Alcuni browser bloccano le richieste fetch su file locali (`file://`). Se la mappa non si carica, avvia un server locale minimale, ad esempio:
+>
+> ```
+> python -m http.server 8000
+> ```
+>
+> e apri `http://localhost:8000` nel browser.
+
 ## Tecnologie utilizzate
 
-- **Frontend:** Three.js, HTML, CSS, JavaScript
-- **Backend:** Node.js con Express
-- **Dati:** File JSON locali
+- **Three.js** (incluso localmente in `assets/libs/`)
+- HTML, CSS, JavaScript (ES Modules nativi)
+- Dati in file JSON locali
 
 _Questo progetto è rilasciato per fini didattici e non commerciali._
 _© 2025 — Team Ciarnuro Map & Matteo Lupo Pasini._
